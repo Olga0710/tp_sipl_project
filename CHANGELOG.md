@@ -1,0 +1,22 @@
+# Changelog
+
+Формат — [Keep a Changelog](https://keepachangelog.com/uk/1.1.0/), версіонування — [SemVer](https://semver.org/lang/uk/).
+
+## [Unreleased]
+
+## [0.5.0] - 2026-11-13
+
+### Added
+- **Граматика та мова (CORE-01, CORE-02).** Формальна специфікація SIPL (`grammar/sipl.ebnf`), лексер, парсер методом рекурсивного спуску, власні типізовані вузли AST і дерево синтаксичного виводу з іменами правил БНФ курсу (NP1, NS1–NS6, NA1–NA6, NB1–NB5). Кожен вузол має `SourceSpan`; помилки містять рядок, колонку та діапазон.
+- **Виконання (CORE-03, CORE-04).** Інтерпретатор зі станом змінних і лімітом кроків; подієва модель (`BeforeStatement`, `AfterStatement`, `ConditionEvaluated`, `VariableChanged`, `ProgramStarted`, `ProgramFinished`, `ExecutionFailed`) і `listener` для налагоджувачів.
+- **CLI (CORE-05).** Команди `parse`, `check`, `run`, `trace`, `tree`, `sem`; режим `--json` зі стабільною схемою (`schema: 1`); коди завершення 0/1/2/3; документація в `docs/cli.md`.
+- **Візуалізація (VIS-01).** Дерево виводу в text, JSON, DOT та SVG (без зовнішніх залежностей).
+- **Семантика (SEM-01).** Побудова семантичного терму за правилами практикуму (`AS^x`, `WH`, `IF`, `S²`, `x⇒`, `·`, `id`) у нотаціях `course`, `ascii`, `latex` та послідовність застосованих правил.
+- **Публікація (REL-01, REL-02).** CI (ruff, mypy, pytest із покриттям, збірка пакета) та автоматичний реліз з артефактами збірки.
+
+### Notes
+- Змінна — ідентифікатор (розширення порівняно з БНФ курсу); `or`/`not` — синоніми `∨`/`¬`.
+- Неоднозначності БНФ розв'язано явними домовленостями (див. `grammar/sipl.ebnf`).
+
+[Unreleased]: https://github.com/Olga0710/tp_sipl_project/compare/v0.5.0...HEAD
+[0.5.0]: https://github.com/Olga0710/tp_sipl_project/releases/tag/v0.5.0

@@ -1,0 +1,49 @@
+// SIPL Grammar — відповідає БНФ курсу
+start: program
+
+program: "begin" statement "end"                              // NP1
+
+statement: simple (";" simple)*                               // NS2: послідовність
+
+?simple: assignment
+       | conditional
+       | while_loop
+       | block
+       | skip
+
+assignment:  VAR ":=" expr                                    // NS1
+conditional: "if" condition "then" simple "else" simple       // NS3: повний if-else
+          | "if" condition "then" simple                     //  скорочений if без else
+while_loop:  "while" condition "do" simple                    // NS4
+block:       "begin" statement "end"                          // NS5
+skip:        "skip"                                           // NS6
+
+?expr: term
+     | expr "+" term    -> add                                // NA3
+     | expr "-" term    -> sub                                // NA4
+
+?term: factor
+     | term "*" factor  -> mul                                // NA5
+
+?factor: NUMBER         -> num                                // NA1
+       | VAR            -> var                                // NA2
+       | "-" NUMBER     -> neg_num                            // від'ємна константа
+       | "(" expr ")"                                         // NA6
+
+?condition: cond_not
+          | condition "∨" cond_not   -> or_                   // NB3
+          | condition "or" cond_not  -> or_
+
+?cond_not: cond_atom
+         | "¬" cond_not              -> not_                  // NB4
+         | "not" cond_not            -> not_
+
+?cond_atom: expr "=" expr            -> eq                    // NB1
+          | expr ">" expr            -> gt                    // NB2
+          | "(" condition ")"                                 // NB5
+
+VAR: /[A-Za-z][A-Za-z0-9_]*/
+NUMBER: /[0-9]+/
+
+%import common.WS
+%ignore WS

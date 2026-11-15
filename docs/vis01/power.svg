@@ -1,0 +1,439 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1778" height="836" viewBox="0 0 1778 836" font-family="Arial, Helvetica, sans-serif" font-size="14">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#555"/></marker></defs>
+<rect width="1778" height="836" fill="#ffffff"/>
+<line class="edge" x1="893.4" y1="60.0" x2="53.0" y2="103.0" stroke="#555" stroke-width="1.2" marker-end="url(#arrow)"/>
+<line class="edge" x1="893.4" y1="60.0" x2="518.5" y2="103.0" stroke="#555" stroke-width="1.2" marker-end="url(#arrow)"/>
+<line class="edge" x1="518.5" y1="144.0" x2="215.5" y2="187.0" stroke="#555" stroke-width="1.2" marker-end="url(#arrow)"/>
+<line class="edge" x1="215.5" y1="228.0" x2="141.6" y2="271.0" stroke="#555" stroke-width="1.2" marker-end="url(#arrow)"/>
+<line class="edge" x1="141.6" y1="312.0" x2="141.6" y2="355.0" stroke="#555" stroke-width="1.2" marker-end="url(#arrow)"/>
+<line class="edge" x1="215.5" y1="228.0" x2="217.6" y2="271.0" stroke="#555" stroke-width="1.2" marker-end="url(#arrow)"/>
+<line class="edge" x1="215.5" y1="228.0" x2="289.4" y2="271.0" stroke="#555" stroke-width="1.2" marker-end="url(#arrow)"/>
+<line class="edge" x1="289.4" y1="312.0" x2="289.4" y2="355.0" stroke="#555" stroke-width="1.2" marker-end="url(#arrow)"/>
+<line class="edge" x1="289.4" y1="396.0" x2="289.4" y2="439.0" stroke="#555" stroke-width="1.2" marker-end="url(#arrow)"/>
+<line class="edge" x1="518.5" y1="144.0" x2="357.0" y2="187.0" stroke="#555" stroke-width="1.2" marker-end="url(#arrow)"/>
+<line class="edge" x1="518.5" y1="144.0" x2="821.6" y2="187.0" stroke="#555" stroke-width="1.2" marker-end="url(#arrow)"/>
+<line class="edge" x1="821.6" y1="228.0" x2="416.2" y2="271.0" stroke="#555" stroke-width="1.2" marker-end="url(#arrow)"/>
+<line class="edge" x1="821.6" y1="228.0" x2="574.5" y2="271.0" stroke="#555" stroke-width="1.2" marker-end="url(#arrow)"/>
+<line class="edge" x1="574.5" y1="312.0" x2="504.8" y2="355.0" stroke="#555" stroke-width="1.2" marker-end="url(#arrow)"/>
+<line class="edge" x1="504.8" y1="396.0" x2="504.8" y2="439.0" stroke="#555" stroke-width="1.2" marker-end="url(#arrow)"/>
+<line class="edge" x1="504.8" y1="480.0" x2="504.8" y2="523.0" stroke="#555" stroke-width="1.2" marker-end="url(#arrow)"/>
+<line class="edge" x1="574.5" y1="312.0" x2="576.6" y2="355.0" stroke="#555" stroke-width="1.2" marker-end="url(#arrow)"/>
+<line class="edge" x1="574.5" y1="312.0" x2="644.2" y2="355.0" stroke="#555" stroke-width="1.2" marker-end="url(#arrow)"/>
+<line class="edge" x1="644.2" y1="396.0" x2="644.2" y2="439.0" stroke="#555" stroke-width="1.2" marker-end="url(#arrow)"/>
+<line class="edge" x1="644.2" y1="480.0" x2="644.2" y2="523.0" stroke="#555" stroke-width="1.2" marker-end="url(#arrow)"/>
+<line class="edge" x1="821.6" y1="228.0" x2="716.0" y2="271.0" stroke="#555" stroke-width="1.2" marker-end="url(#arrow)"/>
+<line class="edge" x1="821.6" y1="228.0" x2="1227.0" y2="271.0" stroke="#555" stroke-width="1.2" marker-end="url(#arrow)"/>
+<line class="edge" x1="1227.0" y1="312.0" x2="779.4" y2="355.0" stroke="#555" stroke-width="1.2" marker-end="url(#arrow)"/>
+<line class="edge" x1="1227.0" y1="312.0" x2="1199.0" y2="355.0" stroke="#555" stroke-width="1.2" marker-end="url(#arrow)"/>
+<line class="edge" x1="1199.0" y1="396.0" x2="979.9" y2="439.0" stroke="#555" stroke-width="1.2" marker-end="url(#arrow)"/>
+<line class="edge" x1="979.9" y1="480.0" x2="868.0" y2="523.0" stroke="#555" stroke-width="1.2" marker-end="url(#arrow)"/>
+<line class="edge" x1="868.0" y1="564.0" x2="868.0" y2="607.0" stroke="#555" stroke-width="1.2" marker-end="url(#arrow)"/>
+<line class="edge" x1="979.9" y1="480.0" x2="944.0" y2="523.0" stroke="#555" stroke-width="1.2" marker-end="url(#arrow)"/>
+<line class="edge" x1="979.9" y1="480.0" x2="1091.8" y2="523.0" stroke="#555" stroke-width="1.2" marker-end="url(#arrow)"/>
+<line class="edge" x1="1091.8" y1="564.0" x2="1020.0" y2="607.0" stroke="#555" stroke-width="1.2" marker-end="url(#arrow)"/>
+<line class="edge" x1="1020.0" y1="648.0" x2="1020.0" y2="691.0" stroke="#555" stroke-width="1.2" marker-end="url(#arrow)"/>
+<line class="edge" x1="1020.0" y1="732.0" x2="1020.0" y2="775.0" stroke="#555" stroke-width="1.2" marker-end="url(#arrow)"/>
+<line class="edge" x1="1091.8" y1="564.0" x2="1091.8" y2="607.0" stroke="#555" stroke-width="1.2" marker-end="url(#arrow)"/>
+<line class="edge" x1="1091.8" y1="564.0" x2="1163.6" y2="607.0" stroke="#555" stroke-width="1.2" marker-end="url(#arrow)"/>
+<line class="edge" x1="1163.6" y1="648.0" x2="1163.6" y2="691.0" stroke="#555" stroke-width="1.2" marker-end="url(#arrow)"/>
+<line class="edge" x1="1163.6" y1="732.0" x2="1163.6" y2="775.0" stroke="#555" stroke-width="1.2" marker-end="url(#arrow)"/>
+<line class="edge" x1="1199.0" y1="396.0" x2="1235.4" y2="439.0" stroke="#555" stroke-width="1.2" marker-end="url(#arrow)"/>
+<line class="edge" x1="1199.0" y1="396.0" x2="1418.1" y2="439.0" stroke="#555" stroke-width="1.2" marker-end="url(#arrow)"/>
+<line class="edge" x1="1418.1" y1="480.0" x2="1307.2" y2="523.0" stroke="#555" stroke-width="1.2" marker-end="url(#arrow)"/>
+<line class="edge" x1="1307.2" y1="564.0" x2="1307.2" y2="607.0" stroke="#555" stroke-width="1.2" marker-end="url(#arrow)"/>
+<line class="edge" x1="1418.1" y1="480.0" x2="1383.2" y2="523.0" stroke="#555" stroke-width="1.2" marker-end="url(#arrow)"/>
+<line class="edge" x1="1418.1" y1="480.0" x2="1528.9" y2="523.0" stroke="#555" stroke-width="1.2" marker-end="url(#arrow)"/>
+<line class="edge" x1="1528.9" y1="564.0" x2="1459.2" y2="607.0" stroke="#555" stroke-width="1.2" marker-end="url(#arrow)"/>
+<line class="edge" x1="1459.2" y1="648.0" x2="1459.2" y2="691.0" stroke="#555" stroke-width="1.2" marker-end="url(#arrow)"/>
+<line class="edge" x1="1459.2" y1="732.0" x2="1459.2" y2="775.0" stroke="#555" stroke-width="1.2" marker-end="url(#arrow)"/>
+<line class="edge" x1="1528.9" y1="564.0" x2="1531.0" y2="607.0" stroke="#555" stroke-width="1.2" marker-end="url(#arrow)"/>
+<line class="edge" x1="1528.9" y1="564.0" x2="1598.6" y2="607.0" stroke="#555" stroke-width="1.2" marker-end="url(#arrow)"/>
+<line class="edge" x1="1598.6" y1="648.0" x2="1598.6" y2="691.0" stroke="#555" stroke-width="1.2" marker-end="url(#arrow)"/>
+<line class="edge" x1="1598.6" y1="732.0" x2="1598.6" y2="775.0" stroke="#555" stroke-width="1.2" marker-end="url(#arrow)"/>
+<line class="edge" x1="1227.0" y1="312.0" x2="1674.6" y2="355.0" stroke="#555" stroke-width="1.2" marker-end="url(#arrow)"/>
+<line class="edge" x1="893.4" y1="60.0" x2="1733.8" y2="103.0" stroke="#555" stroke-width="1.2" marker-end="url(#arrow)"/>
+<g class="node" data-id="1" data-rule="NP1" data-start="0" data-end="81" data-line="1" data-column="1">
+<title>begin
+  R := 1;
+  while Y &gt; 0 do
+  begin
+    R := R * X;
+    Y := Y - 1
+  end
+end
+(1:1-8:4)</title>
+<rect x="839.4" y="20.0" width="108.0" height="40" rx="6" fill="#e6f0ff" stroke="#3b6fb6"/>
+<text x="893.4" y="37.0" text-anchor="middle" fill="#222">&lt;програма&gt;</text>
+<text x="893.4" y="53.0" text-anchor="middle" font-size="11" fill="#3b6fb6">NP1</text>
+</g>
+<g class="node" data-id="2" data-order="1" data-rule="" data-start="0" data-end="5" data-line="1" data-column="1">
+<title>begin
+(1:1-1:6)</title>
+<rect x="20.0" y="104.0" width="66.0" height="40" rx="20.0" fill="#fff4cc" stroke="#b8860b"/>
+<text x="53.0" y="129.0" text-anchor="middle" font-style="italic" fill="#222">begin</text>
+<text class="order" x="21.0" y="102.0" text-anchor="end" font-size="11" font-weight="bold" fill="#d62828">1</text>
+</g>
+<g class="node" data-id="3" data-rule="NS2" data-start="8" data-end="77" data-line="2" data-column="3">
+<title>R := 1;
+  while Y &gt; 0 do
+  begin
+    R := R * X;
+    Y := Y - 1
+  end
+(2:3-7:6)</title>
+<rect x="464.5" y="104.0" width="108.0" height="40" rx="6" fill="#e6f0ff" stroke="#3b6fb6"/>
+<text x="518.5" y="121.0" text-anchor="middle" fill="#222">&lt;оператор&gt;</text>
+<text x="518.5" y="137.0" text-anchor="middle" font-size="11" fill="#3b6fb6">NS2</text>
+</g>
+<g class="node" data-id="4" data-rule="NS1" data-start="8" data-end="14" data-line="2" data-column="3">
+<title>R := 1
+(2:3-2:9)</title>
+<rect x="161.5" y="188.0" width="108.0" height="40" rx="6" fill="#e6f0ff" stroke="#3b6fb6"/>
+<text x="215.5" y="205.0" text-anchor="middle" fill="#222">&lt;оператор&gt;</text>
+<text x="215.5" y="221.0" text-anchor="middle" font-size="11" fill="#3b6fb6">NS1</text>
+</g>
+<g class="node" data-id="5" data-rule="NV" data-start="8" data-end="9" data-line="2" data-column="3">
+<title>R
+(2:3-2:4)</title>
+<rect x="96.0" y="272.0" width="91.2" height="40" rx="6" fill="#e6f0ff" stroke="#3b6fb6"/>
+<text x="141.6" y="289.0" text-anchor="middle" fill="#222">&lt;змінна&gt;</text>
+<text x="141.6" y="305.0" text-anchor="middle" font-size="11" fill="#3b6fb6">NV</text>
+</g>
+<g class="node" data-id="6" data-order="2" data-rule="" data-start="8" data-end="9" data-line="2" data-column="3">
+<title>R
+(2:3-2:4)</title>
+<rect x="125.4" y="356.0" width="32.4" height="40" rx="20.0" fill="#fff4cc" stroke="#b8860b"/>
+<text x="141.6" y="381.0" text-anchor="middle" font-style="italic" fill="#222">R</text>
+<text class="order" x="126.4" y="354.0" text-anchor="end" font-size="11" font-weight="bold" fill="#d62828">2</text>
+</g>
+<g class="node" data-id="7" data-order="3" data-rule="" data-start="10" data-end="12" data-line="2" data-column="5">
+<title>:=
+(2:5-2:7)</title>
+<rect x="197.2" y="272.0" width="40.8" height="40" rx="20.0" fill="#fff4cc" stroke="#b8860b"/>
+<text x="217.6" y="297.0" text-anchor="middle" font-style="italic" fill="#222">:=</text>
+<text class="order" x="198.2" y="270.0" text-anchor="end" font-size="11" font-weight="bold" fill="#d62828">3</text>
+</g>
+<g class="node" data-id="8" data-rule="NA1" data-start="13" data-end="14" data-line="2" data-column="8">
+<title>1
+(2:8-2:9)</title>
+<rect x="248.0" y="272.0" width="82.8" height="40" rx="6" fill="#e6f0ff" stroke="#3b6fb6"/>
+<text x="289.4" y="289.0" text-anchor="middle" fill="#222">&lt;вираз&gt;</text>
+<text x="289.4" y="305.0" text-anchor="middle" font-size="11" fill="#3b6fb6">NA1</text>
+</g>
+<g class="node" data-id="9" data-rule="NN" data-start="13" data-end="14" data-line="2" data-column="8">
+<title>1
+(2:8-2:9)</title>
+<rect x="248.0" y="356.0" width="82.8" height="40" rx="6" fill="#e6f0ff" stroke="#3b6fb6"/>
+<text x="289.4" y="373.0" text-anchor="middle" fill="#222">&lt;число&gt;</text>
+<text x="289.4" y="389.0" text-anchor="middle" font-size="11" fill="#3b6fb6">NN</text>
+</g>
+<g class="node" data-id="10" data-order="4" data-rule="" data-start="13" data-end="14" data-line="2" data-column="8">
+<title>1
+(2:8-2:9)</title>
+<rect x="273.2" y="440.0" width="32.4" height="40" rx="20.0" fill="#fff4cc" stroke="#b8860b"/>
+<text x="289.4" y="465.0" text-anchor="middle" font-style="italic" fill="#222">1</text>
+<text class="order" x="274.2" y="438.0" text-anchor="end" font-size="11" font-weight="bold" fill="#d62828">4</text>
+</g>
+<g class="node" data-id="11" data-order="5" data-rule="" data-start="14" data-end="15" data-line="2" data-column="9">
+<title>;
+(2:9-2:10)</title>
+<rect x="340.8" y="188.0" width="32.4" height="40" rx="20.0" fill="#fff4cc" stroke="#b8860b"/>
+<text x="357.0" y="213.0" text-anchor="middle" font-style="italic" fill="#222">;</text>
+<text class="order" x="341.8" y="186.0" text-anchor="end" font-size="11" font-weight="bold" fill="#d62828">5</text>
+</g>
+<g class="node" data-id="12" data-rule="NS4" data-start="18" data-end="77" data-line="3" data-column="3">
+<title>while Y &gt; 0 do
+  begin
+    R := R * X;
+    Y := Y - 1
+  end
+(3:3-7:6)</title>
+<rect x="767.6" y="188.0" width="108.0" height="40" rx="6" fill="#e6f0ff" stroke="#3b6fb6"/>
+<text x="821.6" y="205.0" text-anchor="middle" fill="#222">&lt;оператор&gt;</text>
+<text x="821.6" y="221.0" text-anchor="middle" font-size="11" fill="#3b6fb6">NS4</text>
+</g>
+<g class="node" data-id="13" data-order="6" data-rule="" data-start="18" data-end="23" data-line="3" data-column="3">
+<title>while
+(3:3-3:8)</title>
+<rect x="383.2" y="272.0" width="66.0" height="40" rx="20.0" fill="#fff4cc" stroke="#b8860b"/>
+<text x="416.2" y="297.0" text-anchor="middle" font-style="italic" fill="#222">while</text>
+<text class="order" x="384.2" y="270.0" text-anchor="end" font-size="11" font-weight="bold" fill="#d62828">6</text>
+</g>
+<g class="node" data-id="14" data-rule="NB2" data-start="24" data-end="29" data-line="3" data-column="9">
+<title>Y &gt; 0
+(3:9-3:14)</title>
+<rect x="533.1" y="272.0" width="82.8" height="40" rx="6" fill="#e6f0ff" stroke="#3b6fb6"/>
+<text x="574.5" y="289.0" text-anchor="middle" fill="#222">&lt;умова&gt;</text>
+<text x="574.5" y="305.0" text-anchor="middle" font-size="11" fill="#3b6fb6">NB2</text>
+</g>
+<g class="node" data-id="15" data-rule="NA2" data-start="24" data-end="25" data-line="3" data-column="9">
+<title>Y
+(3:9-3:10)</title>
+<rect x="463.4" y="356.0" width="82.8" height="40" rx="6" fill="#e6f0ff" stroke="#3b6fb6"/>
+<text x="504.8" y="373.0" text-anchor="middle" fill="#222">&lt;вираз&gt;</text>
+<text x="504.8" y="389.0" text-anchor="middle" font-size="11" fill="#3b6fb6">NA2</text>
+</g>
+<g class="node" data-id="16" data-rule="NV" data-start="24" data-end="25" data-line="3" data-column="9">
+<title>Y
+(3:9-3:10)</title>
+<rect x="459.2" y="440.0" width="91.2" height="40" rx="6" fill="#e6f0ff" stroke="#3b6fb6"/>
+<text x="504.8" y="457.0" text-anchor="middle" fill="#222">&lt;змінна&gt;</text>
+<text x="504.8" y="473.0" text-anchor="middle" font-size="11" fill="#3b6fb6">NV</text>
+</g>
+<g class="node" data-id="17" data-order="7" data-rule="" data-start="24" data-end="25" data-line="3" data-column="9">
+<title>Y
+(3:9-3:10)</title>
+<rect x="488.6" y="524.0" width="32.4" height="40" rx="20.0" fill="#fff4cc" stroke="#b8860b"/>
+<text x="504.8" y="549.0" text-anchor="middle" font-style="italic" fill="#222">Y</text>
+<text class="order" x="489.6" y="522.0" text-anchor="end" font-size="11" font-weight="bold" fill="#d62828">7</text>
+</g>
+<g class="node" data-id="18" data-order="8" data-rule="" data-start="26" data-end="27" data-line="3" data-column="11">
+<title>&gt;
+(3:11-3:12)</title>
+<rect x="560.4" y="356.0" width="32.4" height="40" rx="20.0" fill="#fff4cc" stroke="#b8860b"/>
+<text x="576.6" y="381.0" text-anchor="middle" font-style="italic" fill="#222">&gt;</text>
+<text class="order" x="561.4" y="354.0" text-anchor="end" font-size="11" font-weight="bold" fill="#d62828">8</text>
+</g>
+<g class="node" data-id="19" data-rule="NA1" data-start="28" data-end="29" data-line="3" data-column="13">
+<title>0
+(3:13-3:14)</title>
+<rect x="602.8" y="356.0" width="82.8" height="40" rx="6" fill="#e6f0ff" stroke="#3b6fb6"/>
+<text x="644.2" y="373.0" text-anchor="middle" fill="#222">&lt;вираз&gt;</text>
+<text x="644.2" y="389.0" text-anchor="middle" font-size="11" fill="#3b6fb6">NA1</text>
+</g>
+<g class="node" data-id="20" data-rule="NN" data-start="28" data-end="29" data-line="3" data-column="13">
+<title>0
+(3:13-3:14)</title>
+<rect x="602.8" y="440.0" width="82.8" height="40" rx="6" fill="#e6f0ff" stroke="#3b6fb6"/>
+<text x="644.2" y="457.0" text-anchor="middle" fill="#222">&lt;число&gt;</text>
+<text x="644.2" y="473.0" text-anchor="middle" font-size="11" fill="#3b6fb6">NN</text>
+</g>
+<g class="node" data-id="21" data-order="9" data-rule="" data-start="28" data-end="29" data-line="3" data-column="13">
+<title>0
+(3:13-3:14)</title>
+<rect x="628.0" y="524.0" width="32.4" height="40" rx="20.0" fill="#fff4cc" stroke="#b8860b"/>
+<text x="644.2" y="549.0" text-anchor="middle" font-style="italic" fill="#222">0</text>
+<text class="order" x="629.0" y="522.0" text-anchor="end" font-size="11" font-weight="bold" fill="#d62828">9</text>
+</g>
+<g class="node" data-id="22" data-order="10" data-rule="" data-start="30" data-end="32" data-line="3" data-column="15">
+<title>do
+(3:15-3:17)</title>
+<rect x="695.6" y="272.0" width="40.8" height="40" rx="20.0" fill="#fff4cc" stroke="#b8860b"/>
+<text x="716.0" y="297.0" text-anchor="middle" font-style="italic" fill="#222">do</text>
+<text class="order" x="696.6" y="270.0" text-anchor="end" font-size="11" font-weight="bold" fill="#d62828">10</text>
+</g>
+<g class="node" data-id="23" data-rule="NS5" data-start="35" data-end="77" data-line="4" data-column="3">
+<title>begin
+    R := R * X;
+    Y := Y - 1
+  end
+(4:3-7:6)</title>
+<rect x="1173.0" y="272.0" width="108.0" height="40" rx="6" fill="#e6f0ff" stroke="#3b6fb6"/>
+<text x="1227.0" y="289.0" text-anchor="middle" fill="#222">&lt;оператор&gt;</text>
+<text x="1227.0" y="305.0" text-anchor="middle" font-size="11" fill="#3b6fb6">NS5</text>
+</g>
+<g class="node" data-id="24" data-order="11" data-rule="" data-start="35" data-end="40" data-line="4" data-column="3">
+<title>begin
+(4:3-4:8)</title>
+<rect x="746.4" y="356.0" width="66.0" height="40" rx="20.0" fill="#fff4cc" stroke="#b8860b"/>
+<text x="779.4" y="381.0" text-anchor="middle" font-style="italic" fill="#222">begin</text>
+<text class="order" x="747.4" y="354.0" text-anchor="end" font-size="11" font-weight="bold" fill="#d62828">11</text>
+</g>
+<g class="node" data-id="25" data-rule="NS2" data-start="45" data-end="71" data-line="5" data-column="5">
+<title>R := R * X;
+    Y := Y - 1
+(5:5-6:15)</title>
+<rect x="1145.0" y="356.0" width="108.0" height="40" rx="6" fill="#e6f0ff" stroke="#3b6fb6"/>
+<text x="1199.0" y="373.0" text-anchor="middle" fill="#222">&lt;оператор&gt;</text>
+<text x="1199.0" y="389.0" text-anchor="middle" font-size="11" fill="#3b6fb6">NS2</text>
+</g>
+<g class="node" data-id="26" data-rule="NS1" data-start="45" data-end="55" data-line="5" data-column="5">
+<title>R := R * X
+(5:5-5:15)</title>
+<rect x="925.9" y="440.0" width="108.0" height="40" rx="6" fill="#e6f0ff" stroke="#3b6fb6"/>
+<text x="979.9" y="457.0" text-anchor="middle" fill="#222">&lt;оператор&gt;</text>
+<text x="979.9" y="473.0" text-anchor="middle" font-size="11" fill="#3b6fb6">NS1</text>
+</g>
+<g class="node" data-id="27" data-rule="NV" data-start="45" data-end="46" data-line="5" data-column="5">
+<title>R
+(5:5-5:6)</title>
+<rect x="822.4" y="524.0" width="91.2" height="40" rx="6" fill="#e6f0ff" stroke="#3b6fb6"/>
+<text x="868.0" y="541.0" text-anchor="middle" fill="#222">&lt;змінна&gt;</text>
+<text x="868.0" y="557.0" text-anchor="middle" font-size="11" fill="#3b6fb6">NV</text>
+</g>
+<g class="node" data-id="28" data-order="12" data-rule="" data-start="45" data-end="46" data-line="5" data-column="5">
+<title>R
+(5:5-5:6)</title>
+<rect x="851.8" y="608.0" width="32.4" height="40" rx="20.0" fill="#fff4cc" stroke="#b8860b"/>
+<text x="868.0" y="633.0" text-anchor="middle" font-style="italic" fill="#222">R</text>
+<text class="order" x="852.8" y="606.0" text-anchor="end" font-size="11" font-weight="bold" fill="#d62828">12</text>
+</g>
+<g class="node" data-id="29" data-order="13" data-rule="" data-start="47" data-end="49" data-line="5" data-column="7">
+<title>:=
+(5:7-5:9)</title>
+<rect x="923.6" y="524.0" width="40.8" height="40" rx="20.0" fill="#fff4cc" stroke="#b8860b"/>
+<text x="944.0" y="549.0" text-anchor="middle" font-style="italic" fill="#222">:=</text>
+<text class="order" x="924.6" y="522.0" text-anchor="end" font-size="11" font-weight="bold" fill="#d62828">13</text>
+</g>
+<g class="node" data-id="30" data-rule="NA5" data-start="50" data-end="55" data-line="5" data-column="10">
+<title>R * X
+(5:10-5:15)</title>
+<rect x="1050.4" y="524.0" width="82.8" height="40" rx="6" fill="#e6f0ff" stroke="#3b6fb6"/>
+<text x="1091.8" y="541.0" text-anchor="middle" fill="#222">&lt;вираз&gt;</text>
+<text x="1091.8" y="557.0" text-anchor="middle" font-size="11" fill="#3b6fb6">NA5</text>
+</g>
+<g class="node" data-id="31" data-rule="NA2" data-start="50" data-end="51" data-line="5" data-column="10">
+<title>R
+(5:10-5:11)</title>
+<rect x="978.6" y="608.0" width="82.8" height="40" rx="6" fill="#e6f0ff" stroke="#3b6fb6"/>
+<text x="1020.0" y="625.0" text-anchor="middle" fill="#222">&lt;вираз&gt;</text>
+<text x="1020.0" y="641.0" text-anchor="middle" font-size="11" fill="#3b6fb6">NA2</text>
+</g>
+<g class="node" data-id="32" data-rule="NV" data-start="50" data-end="51" data-line="5" data-column="10">
+<title>R
+(5:10-5:11)</title>
+<rect x="974.4" y="692.0" width="91.2" height="40" rx="6" fill="#e6f0ff" stroke="#3b6fb6"/>
+<text x="1020.0" y="709.0" text-anchor="middle" fill="#222">&lt;змінна&gt;</text>
+<text x="1020.0" y="725.0" text-anchor="middle" font-size="11" fill="#3b6fb6">NV</text>
+</g>
+<g class="node" data-id="33" data-order="14" data-rule="" data-start="50" data-end="51" data-line="5" data-column="10">
+<title>R
+(5:10-5:11)</title>
+<rect x="1003.8" y="776.0" width="32.4" height="40" rx="20.0" fill="#fff4cc" stroke="#b8860b"/>
+<text x="1020.0" y="801.0" text-anchor="middle" font-style="italic" fill="#222">R</text>
+<text class="order" x="1004.8" y="774.0" text-anchor="end" font-size="11" font-weight="bold" fill="#d62828">14</text>
+</g>
+<g class="node" data-id="34" data-order="15" data-rule="" data-start="52" data-end="53" data-line="5" data-column="12">
+<title>*
+(5:12-5:13)</title>
+<rect x="1075.6" y="608.0" width="32.4" height="40" rx="20.0" fill="#fff4cc" stroke="#b8860b"/>
+<text x="1091.8" y="633.0" text-anchor="middle" font-style="italic" fill="#222">*</text>
+<text class="order" x="1076.6" y="606.0" text-anchor="end" font-size="11" font-weight="bold" fill="#d62828">15</text>
+</g>
+<g class="node" data-id="35" data-rule="NA2" data-start="54" data-end="55" data-line="5" data-column="14">
+<title>X
+(5:14-5:15)</title>
+<rect x="1122.2" y="608.0" width="82.8" height="40" rx="6" fill="#e6f0ff" stroke="#3b6fb6"/>
+<text x="1163.6" y="625.0" text-anchor="middle" fill="#222">&lt;вираз&gt;</text>
+<text x="1163.6" y="641.0" text-anchor="middle" font-size="11" fill="#3b6fb6">NA2</text>
+</g>
+<g class="node" data-id="36" data-rule="NV" data-start="54" data-end="55" data-line="5" data-column="14">
+<title>X
+(5:14-5:15)</title>
+<rect x="1118.0" y="692.0" width="91.2" height="40" rx="6" fill="#e6f0ff" stroke="#3b6fb6"/>
+<text x="1163.6" y="709.0" text-anchor="middle" fill="#222">&lt;змінна&gt;</text>
+<text x="1163.6" y="725.0" text-anchor="middle" font-size="11" fill="#3b6fb6">NV</text>
+</g>
+<g class="node" data-id="37" data-order="16" data-rule="" data-start="54" data-end="55" data-line="5" data-column="14">
+<title>X
+(5:14-5:15)</title>
+<rect x="1147.4" y="776.0" width="32.4" height="40" rx="20.0" fill="#fff4cc" stroke="#b8860b"/>
+<text x="1163.6" y="801.0" text-anchor="middle" font-style="italic" fill="#222">X</text>
+<text class="order" x="1148.4" y="774.0" text-anchor="end" font-size="11" font-weight="bold" fill="#d62828">16</text>
+</g>
+<g class="node" data-id="38" data-order="17" data-rule="" data-start="55" data-end="56" data-line="5" data-column="15">
+<title>;
+(5:15-5:16)</title>
+<rect x="1219.2" y="440.0" width="32.4" height="40" rx="20.0" fill="#fff4cc" stroke="#b8860b"/>
+<text x="1235.4" y="465.0" text-anchor="middle" font-style="italic" fill="#222">;</text>
+<text class="order" x="1220.2" y="438.0" text-anchor="end" font-size="11" font-weight="bold" fill="#d62828">17</text>
+</g>
+<g class="node" data-id="39" data-rule="NS1" data-start="61" data-end="71" data-line="6" data-column="5">
+<title>Y := Y - 1
+(6:5-6:15)</title>
+<rect x="1364.1" y="440.0" width="108.0" height="40" rx="6" fill="#e6f0ff" stroke="#3b6fb6"/>
+<text x="1418.1" y="457.0" text-anchor="middle" fill="#222">&lt;оператор&gt;</text>
+<text x="1418.1" y="473.0" text-anchor="middle" font-size="11" fill="#3b6fb6">NS1</text>
+</g>
+<g class="node" data-id="40" data-rule="NV" data-start="61" data-end="62" data-line="6" data-column="5">
+<title>Y
+(6:5-6:6)</title>
+<rect x="1261.6" y="524.0" width="91.2" height="40" rx="6" fill="#e6f0ff" stroke="#3b6fb6"/>
+<text x="1307.2" y="541.0" text-anchor="middle" fill="#222">&lt;змінна&gt;</text>
+<text x="1307.2" y="557.0" text-anchor="middle" font-size="11" fill="#3b6fb6">NV</text>
+</g>
+<g class="node" data-id="41" data-order="18" data-rule="" data-start="61" data-end="62" data-line="6" data-column="5">
+<title>Y
+(6:5-6:6)</title>
+<rect x="1291.0" y="608.0" width="32.4" height="40" rx="20.0" fill="#fff4cc" stroke="#b8860b"/>
+<text x="1307.2" y="633.0" text-anchor="middle" font-style="italic" fill="#222">Y</text>
+<text class="order" x="1292.0" y="606.0" text-anchor="end" font-size="11" font-weight="bold" fill="#d62828">18</text>
+</g>
+<g class="node" data-id="42" data-order="19" data-rule="" data-start="63" data-end="65" data-line="6" data-column="7">
+<title>:=
+(6:7-6:9)</title>
+<rect x="1362.8" y="524.0" width="40.8" height="40" rx="20.0" fill="#fff4cc" stroke="#b8860b"/>
+<text x="1383.2" y="549.0" text-anchor="middle" font-style="italic" fill="#222">:=</text>
+<text class="order" x="1363.8" y="522.0" text-anchor="end" font-size="11" font-weight="bold" fill="#d62828">19</text>
+</g>
+<g class="node" data-id="43" data-rule="NA4" data-start="66" data-end="71" data-line="6" data-column="10">
+<title>Y - 1
+(6:10-6:15)</title>
+<rect x="1487.5" y="524.0" width="82.8" height="40" rx="6" fill="#e6f0ff" stroke="#3b6fb6"/>
+<text x="1528.9" y="541.0" text-anchor="middle" fill="#222">&lt;вираз&gt;</text>
+<text x="1528.9" y="557.0" text-anchor="middle" font-size="11" fill="#3b6fb6">NA4</text>
+</g>
+<g class="node" data-id="44" data-rule="NA2" data-start="66" data-end="67" data-line="6" data-column="10">
+<title>Y
+(6:10-6:11)</title>
+<rect x="1417.8" y="608.0" width="82.8" height="40" rx="6" fill="#e6f0ff" stroke="#3b6fb6"/>
+<text x="1459.2" y="625.0" text-anchor="middle" fill="#222">&lt;вираз&gt;</text>
+<text x="1459.2" y="641.0" text-anchor="middle" font-size="11" fill="#3b6fb6">NA2</text>
+</g>
+<g class="node" data-id="45" data-rule="NV" data-start="66" data-end="67" data-line="6" data-column="10">
+<title>Y
+(6:10-6:11)</title>
+<rect x="1413.6" y="692.0" width="91.2" height="40" rx="6" fill="#e6f0ff" stroke="#3b6fb6"/>
+<text x="1459.2" y="709.0" text-anchor="middle" fill="#222">&lt;змінна&gt;</text>
+<text x="1459.2" y="725.0" text-anchor="middle" font-size="11" fill="#3b6fb6">NV</text>
+</g>
+<g class="node" data-id="46" data-order="20" data-rule="" data-start="66" data-end="67" data-line="6" data-column="10">
+<title>Y
+(6:10-6:11)</title>
+<rect x="1443.0" y="776.0" width="32.4" height="40" rx="20.0" fill="#fff4cc" stroke="#b8860b"/>
+<text x="1459.2" y="801.0" text-anchor="middle" font-style="italic" fill="#222">Y</text>
+<text class="order" x="1444.0" y="774.0" text-anchor="end" font-size="11" font-weight="bold" fill="#d62828">20</text>
+</g>
+<g class="node" data-id="47" data-order="21" data-rule="" data-start="68" data-end="69" data-line="6" data-column="12">
+<title>-
+(6:12-6:13)</title>
+<rect x="1514.8" y="608.0" width="32.4" height="40" rx="20.0" fill="#fff4cc" stroke="#b8860b"/>
+<text x="1531.0" y="633.0" text-anchor="middle" font-style="italic" fill="#222">-</text>
+<text class="order" x="1515.8" y="606.0" text-anchor="end" font-size="11" font-weight="bold" fill="#d62828">21</text>
+</g>
+<g class="node" data-id="48" data-rule="NA1" data-start="70" data-end="71" data-line="6" data-column="14">
+<title>1
+(6:14-6:15)</title>
+<rect x="1557.2" y="608.0" width="82.8" height="40" rx="6" fill="#e6f0ff" stroke="#3b6fb6"/>
+<text x="1598.6" y="625.0" text-anchor="middle" fill="#222">&lt;вираз&gt;</text>
+<text x="1598.6" y="641.0" text-anchor="middle" font-size="11" fill="#3b6fb6">NA1</text>
+</g>
+<g class="node" data-id="49" data-rule="NN" data-start="70" data-end="71" data-line="6" data-column="14">
+<title>1
+(6:14-6:15)</title>
+<rect x="1557.2" y="692.0" width="82.8" height="40" rx="6" fill="#e6f0ff" stroke="#3b6fb6"/>
+<text x="1598.6" y="709.0" text-anchor="middle" fill="#222">&lt;число&gt;</text>
+<text x="1598.6" y="725.0" text-anchor="middle" font-size="11" fill="#3b6fb6">NN</text>
+</g>
+<g class="node" data-id="50" data-order="22" data-rule="" data-start="70" data-end="71" data-line="6" data-column="14">
+<title>1
+(6:14-6:15)</title>
+<rect x="1582.4" y="776.0" width="32.4" height="40" rx="20.0" fill="#fff4cc" stroke="#b8860b"/>
+<text x="1598.6" y="801.0" text-anchor="middle" font-style="italic" fill="#222">1</text>
+<text class="order" x="1583.4" y="774.0" text-anchor="end" font-size="11" font-weight="bold" fill="#d62828">22</text>
+</g>
+<g class="node" data-id="51" data-order="23" data-rule="" data-start="74" data-end="77" data-line="7" data-column="3">
+<title>end
+(7:3-7:6)</title>
+<rect x="1650.0" y="356.0" width="49.2" height="40" rx="20.0" fill="#fff4cc" stroke="#b8860b"/>
+<text x="1674.6" y="381.0" text-anchor="middle" font-style="italic" fill="#222">end</text>
+<text class="order" x="1651.0" y="354.0" text-anchor="end" font-size="11" font-weight="bold" fill="#d62828">23</text>
+</g>
+<g class="node" data-id="52" data-order="24" data-rule="" data-start="78" data-end="81" data-line="8" data-column="1">
+<title>end
+(8:1-8:4)</title>
+<rect x="1709.2" y="104.0" width="49.2" height="40" rx="20.0" fill="#fff4cc" stroke="#b8860b"/>
+<text x="1733.8" y="129.0" text-anchor="middle" font-style="italic" fill="#222">end</text>
+<text class="order" x="1710.2" y="102.0" text-anchor="end" font-size="11" font-weight="bold" fill="#d62828">24</text>
+</g>
+</svg>

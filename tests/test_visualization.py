@@ -23,7 +23,7 @@ def nodes_of(src):
     return [n for _, n, _, _ in walk(parse_tree(src))]
 
 
-#  приклад із посібника 
+# ---------- приймальний тест: приклад із посібника ----------
 def test_euclid_tree_has_the_shape_of_the_course_figure():
     counts = Counter(n.symbol for n in nodes_of(EUCLID) if not n.terminal)
     assert counts == {"<програма>": 1, "<оператор>": 4, "<умова>": 3, "<вираз>": 10, "<змінна>": 10}
@@ -31,7 +31,7 @@ def test_euclid_tree_has_the_shape_of_the_course_figure():
     assert len(leaves) == 24
 
 
-#  текст 
+# ---------- текст ----------
 def test_text_has_one_line_per_node_and_rule_names():
     v = view()
     lines = v.to_text().splitlines()
@@ -97,7 +97,7 @@ def test_json_leaves_are_terminals_without_children():
     assert "".join(leaves(view("begin x := 1 end").to_dict())) == "beginx:=1end"
 
 
-#  DOT 
+# ---------- DOT ----------
 def test_dot_structure_and_counts():
     v = view()
     dot = v.to_dot()
@@ -121,7 +121,7 @@ def test_dot_tooltips_contain_source_fragment():
     assert "x := 1" in view(SIMPLE).to_dot()
 
 
-#  SVG 
+# ---------- SVG ----------
 def svg_root(src=EUCLID):
     return ET.fromstring(view(src).to_svg())
 
@@ -183,7 +183,7 @@ def test_svg_parent_is_centered_over_its_children():
     assert pos[id(root)][0] == pytest.approx((pos[id(first)][0] + pos[id(last)][0]) / 2)
 
 
-# - експорт та помилки 
+# ---------- експорт та помилки ----------
 def test_export_writes_four_utf8_files(tmp_path):
     paths = export_parse_tree(EUCLID, tmp_path / "out" / "tree")
     assert sorted(p.suffix for p in paths) == [".dot", ".json", ".svg", ".txt"]
@@ -203,3 +203,102 @@ def test_example_files_can_be_visualized():
     assert len(files) >= 3
     for f in files:
         ParseTreeView(f.read_text(encoding="utf-8")).to_svg()
+
+
+# ---------- нумерація листків (порядок обходу, рис. 1 практикуму) ----------
+POWER = """begin
+  R := 1;
+  while Y > 0 do
+  begin
+    R := R * X;
+    Y := Y - 1
+  end
+end"""
+
+TEXTBOOK_LEAVES = ("1 begin 2 R 3 := 4 1 5 ; 6 while 7 Y 8 > 9 0 10 do 11 begin 12 R 13 := 14 R "
+                   "15 * 16 X 17 ; 18 Y 19 := 20 Y 21 - 22 1 23 end 24 end")
+
+
+def test_leaf_sequence_matches_the_textbook_figure():
+    assert view(POWER).leaf_sequence() == TEXTBOOK_LEAVES
+
+
+def test_text_marks_leaves_with_their_order_number():
+    lines = view(POWER).to_text().splitlines()
+    assert any(line.lstrip(" │├└─").startswith("[1] begin") for line in lines)
+    assert any(line.lstrip(" │├└─").startswith("[24] end") for line in lines)
+    assert lines[0].startswith("<програма> [NP1]")                  # нетермінали без номера
+
+
+def test_text_with_leaves_appends_the_traversal_line():
+    text = view(POWER).to_text(leaves=True)
+    assert text.rstrip().splitlines()[-1] == "Обхід листків зліва направо: " + TEXTBOOK_LEAVES
+    assert "Обхід листків" not in view(POWER).to_text()
+
+
+def test_json_leaves_have_sequential_order_and_nonterminals_have_none():
+    orders = []
+
+    def collect(d):
+        if d["terminal"]:
+            orders.append(d["order"])
+        else:
+            assert "order" not in d
+            for c in d["children"]:
+                collect(c)
+
+    collect(view(POWER).to_dict())
+    assert orders == list(range(1, 25))
+
+
+def test_dot_labels_leaves_with_order_number():
+    dot = view(POWER).to_dot()
+    assert 'label="[1] begin"' in dot and 'label="[24] end"' in dot
+    assert 'label="[13] :="' in dot
+
+
+def test_svg_has_one_red_number_per_leaf_in_order():
+    root = ET.fromstring(view(POWER).to_svg())
+    ns = "{http://www.w3.org/2000/svg}"
+    numbers = [t.text for t in root.iter(ns + "text") if t.get("class") == "order"]
+    assert numbers == [str(i) for i in range(1, 25)]
+    leaves = [g for g in root.iter(ns + "g") if g.get("data-order")]
+    assert [g.get("data-order") for g in leaves] == numbers
+
+
+def test_svg_order_numbers_do_not_overlap_any_node():
+    root = parse_tree(POWER)
+    pos = svg_mod.layout(root)
+    numbers = {id(leaf): n for n, leaf in enumerate(root.leaves(), start=1)}
+
+    def top_of(depth):
+        return svg_mod.MARGIN + depth * (svg_mod.NODE_H + svg_mod.V_GAP)
+
+    boxes = []
+    for _, node, _, depth in walk(root):
+        cx, _ = pos[id(node)]
+        w = svg_mod._node_width(node)
+        boxes.append((cx - w / 2, top_of(depth), cx + w / 2, top_of(depth) + svg_mod.NODE_H))
+    for _, node, _, depth in walk(root):
+        if not node.terminal:
+            continue
+        cx, _ = pos[id(node)]
+        w = svg_mod._node_width(node)
+        right = cx - w / 2 + 1
+        left = right - 7 * len(str(numbers[id(node)]))          # ~7 пікселів на цифру
+        label_box = (left, top_of(depth) - 13, right, top_of(depth) - 2)
+        for (x1, y1, x2, y2) in boxes:
+            assert label_box[2] <= x1 or label_box[0] >= x2 or label_box[3] <= y1 or label_box[1] >= y2
+
+
+def test_cli_tree_text_prints_leaf_traversal(tmp_path):
+    import contextlib
+    import io
+
+    from sipl.cli import main
+    path = tmp_path / "p.sipl"
+    path.write_text(POWER, encoding="utf-8")
+    out = io.StringIO()
+    with contextlib.redirect_stdout(out):
+        assert main(["tree", str(path)]) == 0
+    assert out.getvalue().rstrip().endswith("Обхід листків зліва направо: " + TEXTBOOK_LEAVES)

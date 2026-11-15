@@ -38,24 +38,40 @@ def label(node: ParseNode) -> str:
     return f"{node.symbol} [{node.rule}]" if not node.terminal else node.symbol
 
 
+def leaf_numbers(root: ParseNode) -> dict[int, int]:
+    """id(листка) -> номер у порядку обходу зліва направо (з 1), як на рис. 1 практикуму."""
+    return {id(leaf): n for n, leaf in enumerate(root.leaves(), start=1)}
+
+
+def leaf_sequence(root: ParseNode) -> str:
+    """'1 begin 2 R 3 := ...': програма, прочитана з листків (перевірка синтаксичної коректності)."""
+    return " ".join(f"{n} {leaf.symbol}" for n, leaf in enumerate(root.leaves(), start=1))
+
+
 # ---------------------------------------------------------------- текст
-def to_text(root: ParseNode) -> str:
+def to_text(root: ParseNode, with_leaves: bool = False) -> str:
+    numbers = leaf_numbers(root)
     lines: list[str] = []
 
     def rec(node: ParseNode, prefix: str, is_last: bool, is_root: bool) -> None:
         branch = "" if is_root else ("└── " if is_last else "├── ")
-        lines.append(f"{prefix}{branch}{label(node)}  {span_str(node.span)}")
+        name = f"[{numbers[id(node)]}] {node.symbol}" if node.terminal else label(node)
+        lines.append(f"{prefix}{branch}{name}  {span_str(node.span)}")
         child_prefix = prefix if is_root else prefix + ("    " if is_last else "│   ")
         for i, child in enumerate(node.children):
             rec(child, child_prefix, i == len(node.children) - 1, False)
 
     rec(root, "", True, True)
-    return "\n".join(lines) + "\n"
+    text = "\n".join(lines) + "\n"
+    if with_leaves:
+        text += "\nОбхід листків зліва направо: " + leaf_sequence(root) + "\n"
+    return text
 
 
 # ---------------------------------------------------------------- JSON
 def to_dict(root: ParseNode, source: str) -> dict[str, Any]:
     ids = {id(node): i for i, node, _, _ in walk(root)}
+    numbers = leaf_numbers(root)
 
     def rec(node: ParseNode) -> dict[str, Any]:
         s, e = node.span.start, node.span.end
@@ -70,7 +86,9 @@ def to_dict(root: ParseNode, source: str) -> dict[str, Any]:
             },
             "text": node.span.text(source),
         }
-        if not node.terminal:
+        if node.terminal:
+            d["order"] = numbers[id(node)]
+        else:
             d["children"] = [rec(c) for c in node.children]
         return d
 
@@ -94,12 +112,14 @@ def to_dot(root: ParseNode, source: Optional[str] = None) -> str:
         "  edge [arrowsize=0.6];",
     ]
     edges: list[str] = []
+    numbers = leaf_numbers(root)
     for i, node, parent, _ in walk(root):
         tip = span_str(node.span)
         if source is not None:
             tip = f"{node.span.text(source)} ({tip})"
         if node.terminal:
-            attrs = f'label="{dot_escape(node.symbol)}", shape=ellipse, style=filled, fillcolor="#fff4cc"'
+            attrs = (f'label="[{numbers[id(node)]}] {dot_escape(node.symbol)}", shape=ellipse, '
+                     'style=filled, fillcolor="#fff4cc"')
         else:
             attrs = f'label="{dot_escape(node.symbol)}\\n{node.rule}", shape=box, style="rounded,filled", fillcolor="#e6f0ff"'
         lines.append(f'  n{i} [{attrs}, tooltip="{dot_escape(tip)}"];')
@@ -121,8 +141,11 @@ class ParseTreeView:
     def node_count(self) -> int:
         return sum(1 for _ in walk(self.root))
 
-    def to_text(self) -> str:
-        return to_text(self.root)
+    def to_text(self, leaves: bool = False) -> str:
+        return to_text(self.root, with_leaves=leaves)
+
+    def leaf_sequence(self) -> str:
+        return leaf_sequence(self.root)
 
     def to_json(self, indent: int | None = 2) -> str:
         return to_json(self.root, self.source, indent)

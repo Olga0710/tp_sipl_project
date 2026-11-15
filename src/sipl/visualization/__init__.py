@@ -14,7 +14,7 @@ def export_parse_tree(source: str, basename: str | Path) -> list[Path]:
     base = Path(basename)
     base.parent.mkdir(parents=True, exist_ok=True)
     outputs = {
-        ".txt": view.to_text(),
+        ".txt": view.to_text(leaves=True),
         ".json": view.to_json(),
         ".dot": view.to_dot(),
         ".svg": view.to_svg(),

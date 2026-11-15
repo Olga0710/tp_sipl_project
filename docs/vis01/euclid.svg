@@ -1,0 +1,426 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1804" height="668" viewBox="0 0 1804 668" font-family="Arial, Helvetica, sans-serif" font-size="14">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#555"/></marker></defs>
+<rect width="1804" height="668" fill="#ffffff"/>
+<line class="edge" x1="906.0" y1="60.0" x2="53.0" y2="103.0" stroke="#555" stroke-width="1.2" marker-end="url(#arrow)"/>
+<line class="edge" x1="906.0" y1="60.0" x2="570.9" y2="103.0" stroke="#555" stroke-width="1.2" marker-end="url(#arrow)"/>
+<line class="edge" x1="570.9" y1="144.0" x2="129.0" y2="187.0" stroke="#555" stroke-width="1.2" marker-end="url(#arrow)"/>
+<line class="edge" x1="570.9" y1="144.0" x2="260.0" y2="187.0" stroke="#555" stroke-width="1.2" marker-end="url(#arrow)"/>
+<line class="edge" x1="260.0" y1="228.0" x2="188.2" y2="271.0" stroke="#555" stroke-width="1.2" marker-end="url(#arrow)"/>
+<line class="edge" x1="260.0" y1="228.0" x2="331.8" y2="271.0" stroke="#555" stroke-width="1.2" marker-end="url(#arrow)"/>
+<line class="edge" x1="331.8" y1="312.0" x2="260.0" y2="355.0" stroke="#555" stroke-width="1.2" marker-end="url(#arrow)"/>
+<line class="edge" x1="260.0" y1="396.0" x2="260.0" y2="439.0" stroke="#555" stroke-width="1.2" marker-end="url(#arrow)"/>
+<line class="edge" x1="260.0" y1="480.0" x2="260.0" y2="523.0" stroke="#555" stroke-width="1.2" marker-end="url(#arrow)"/>
+<line class="edge" x1="331.8" y1="312.0" x2="331.8" y2="355.0" stroke="#555" stroke-width="1.2" marker-end="url(#arrow)"/>
+<line class="edge" x1="331.8" y1="312.0" x2="403.6" y2="355.0" stroke="#555" stroke-width="1.2" marker-end="url(#arrow)"/>
+<line class="edge" x1="403.6" y1="396.0" x2="403.6" y2="439.0" stroke="#555" stroke-width="1.2" marker-end="url(#arrow)"/>
+<line class="edge" x1="403.6" y1="480.0" x2="403.6" y2="523.0" stroke="#555" stroke-width="1.2" marker-end="url(#arrow)"/>
+<line class="edge" x1="570.9" y1="144.0" x2="479.6" y2="187.0" stroke="#555" stroke-width="1.2" marker-end="url(#arrow)"/>
+<line class="edge" x1="570.9" y1="144.0" x2="1012.8" y2="187.0" stroke="#555" stroke-width="1.2" marker-end="url(#arrow)"/>
+<line class="edge" x1="1012.8" y1="228.0" x2="530.4" y2="271.0" stroke="#555" stroke-width="1.2" marker-end="url(#arrow)"/>
+<line class="edge" x1="1012.8" y1="228.0" x2="678.2" y2="271.0" stroke="#555" stroke-width="1.2" marker-end="url(#arrow)"/>
+<line class="edge" x1="678.2" y1="312.0" x2="606.4" y2="355.0" stroke="#555" stroke-width="1.2" marker-end="url(#arrow)"/>
+<line class="edge" x1="606.4" y1="396.0" x2="606.4" y2="439.0" stroke="#555" stroke-width="1.2" marker-end="url(#arrow)"/>
+<line class="edge" x1="606.4" y1="480.0" x2="606.4" y2="523.0" stroke="#555" stroke-width="1.2" marker-end="url(#arrow)"/>
+<line class="edge" x1="678.2" y1="312.0" x2="678.2" y2="355.0" stroke="#555" stroke-width="1.2" marker-end="url(#arrow)"/>
+<line class="edge" x1="678.2" y1="312.0" x2="750.0" y2="355.0" stroke="#555" stroke-width="1.2" marker-end="url(#arrow)"/>
+<line class="edge" x1="750.0" y1="396.0" x2="750.0" y2="439.0" stroke="#555" stroke-width="1.2" marker-end="url(#arrow)"/>
+<line class="edge" x1="750.0" y1="480.0" x2="750.0" y2="523.0" stroke="#555" stroke-width="1.2" marker-end="url(#arrow)"/>
+<line class="edge" x1="1012.8" y1="228.0" x2="834.4" y2="271.0" stroke="#555" stroke-width="1.2" marker-end="url(#arrow)"/>
+<line class="edge" x1="1012.8" y1="228.0" x2="1030.7" y2="271.0" stroke="#555" stroke-width="1.2" marker-end="url(#arrow)"/>
+<line class="edge" x1="1030.7" y1="312.0" x2="918.8" y2="355.0" stroke="#555" stroke-width="1.2" marker-end="url(#arrow)"/>
+<line class="edge" x1="918.8" y1="396.0" x2="918.8" y2="439.0" stroke="#555" stroke-width="1.2" marker-end="url(#arrow)"/>
+<line class="edge" x1="1030.7" y1="312.0" x2="994.8" y2="355.0" stroke="#555" stroke-width="1.2" marker-end="url(#arrow)"/>
+<line class="edge" x1="1030.7" y1="312.0" x2="1142.6" y2="355.0" stroke="#555" stroke-width="1.2" marker-end="url(#arrow)"/>
+<line class="edge" x1="1142.6" y1="396.0" x2="1070.8" y2="439.0" stroke="#555" stroke-width="1.2" marker-end="url(#arrow)"/>
+<line class="edge" x1="1070.8" y1="480.0" x2="1070.8" y2="523.0" stroke="#555" stroke-width="1.2" marker-end="url(#arrow)"/>
+<line class="edge" x1="1070.8" y1="564.0" x2="1070.8" y2="607.0" stroke="#555" stroke-width="1.2" marker-end="url(#arrow)"/>
+<line class="edge" x1="1142.6" y1="396.0" x2="1142.6" y2="439.0" stroke="#555" stroke-width="1.2" marker-end="url(#arrow)"/>
+<line class="edge" x1="1142.6" y1="396.0" x2="1214.4" y2="439.0" stroke="#555" stroke-width="1.2" marker-end="url(#arrow)"/>
+<line class="edge" x1="1214.4" y1="480.0" x2="1214.4" y2="523.0" stroke="#555" stroke-width="1.2" marker-end="url(#arrow)"/>
+<line class="edge" x1="1214.4" y1="564.0" x2="1214.4" y2="607.0" stroke="#555" stroke-width="1.2" marker-end="url(#arrow)"/>
+<line class="edge" x1="1012.8" y1="228.0" x2="1298.8" y2="271.0" stroke="#555" stroke-width="1.2" marker-end="url(#arrow)"/>
+<line class="edge" x1="1012.8" y1="228.0" x2="1495.1" y2="271.0" stroke="#555" stroke-width="1.2" marker-end="url(#arrow)"/>
+<line class="edge" x1="1495.1" y1="312.0" x2="1383.2" y2="355.0" stroke="#555" stroke-width="1.2" marker-end="url(#arrow)"/>
+<line class="edge" x1="1383.2" y1="396.0" x2="1383.2" y2="439.0" stroke="#555" stroke-width="1.2" marker-end="url(#arrow)"/>
+<line class="edge" x1="1495.1" y1="312.0" x2="1459.2" y2="355.0" stroke="#555" stroke-width="1.2" marker-end="url(#arrow)"/>
+<line class="edge" x1="1495.1" y1="312.0" x2="1607.0" y2="355.0" stroke="#555" stroke-width="1.2" marker-end="url(#arrow)"/>
+<line class="edge" x1="1607.0" y1="396.0" x2="1535.2" y2="439.0" stroke="#555" stroke-width="1.2" marker-end="url(#arrow)"/>
+<line class="edge" x1="1535.2" y1="480.0" x2="1535.2" y2="523.0" stroke="#555" stroke-width="1.2" marker-end="url(#arrow)"/>
+<line class="edge" x1="1535.2" y1="564.0" x2="1535.2" y2="607.0" stroke="#555" stroke-width="1.2" marker-end="url(#arrow)"/>
+<line class="edge" x1="1607.0" y1="396.0" x2="1607.0" y2="439.0" stroke="#555" stroke-width="1.2" marker-end="url(#arrow)"/>
+<line class="edge" x1="1607.0" y1="396.0" x2="1678.8" y2="439.0" stroke="#555" stroke-width="1.2" marker-end="url(#arrow)"/>
+<line class="edge" x1="1678.8" y1="480.0" x2="1678.8" y2="523.0" stroke="#555" stroke-width="1.2" marker-end="url(#arrow)"/>
+<line class="edge" x1="1678.8" y1="564.0" x2="1678.8" y2="607.0" stroke="#555" stroke-width="1.2" marker-end="url(#arrow)"/>
+<line class="edge" x1="906.0" y1="60.0" x2="1759.0" y2="103.0" stroke="#555" stroke-width="1.2" marker-end="url(#arrow)"/>
+<g class="node" data-id="1" data-rule="NP1" data-start="0" data-end="77" data-line="1" data-column="1">
+<title>begin
+  while ¬ M = N do
+    if M &gt; N then M := M - N
+    else N := N - M
+end
+(1:1-5:4)</title>
+<rect x="852.0" y="20.0" width="108.0" height="40" rx="6" fill="#e6f0ff" stroke="#3b6fb6"/>
+<text x="906.0" y="37.0" text-anchor="middle" fill="#222">&lt;програма&gt;</text>
+<text x="906.0" y="53.0" text-anchor="middle" font-size="11" fill="#3b6fb6">NP1</text>
+</g>
+<g class="node" data-id="2" data-order="1" data-rule="" data-start="0" data-end="5" data-line="1" data-column="1">
+<title>begin
+(1:1-1:6)</title>
+<rect x="20.0" y="104.0" width="66.0" height="40" rx="20.0" fill="#fff4cc" stroke="#b8860b"/>
+<text x="53.0" y="129.0" text-anchor="middle" font-style="italic" fill="#222">begin</text>
+<text class="order" x="21.0" y="102.0" text-anchor="end" font-size="11" font-weight="bold" fill="#d62828">1</text>
+</g>
+<g class="node" data-id="3" data-rule="NS4" data-start="8" data-end="73" data-line="2" data-column="3">
+<title>while ¬ M = N do
+    if M &gt; N then M := M - N
+    else N := N - M
+(2:3-4:20)</title>
+<rect x="516.9" y="104.0" width="108.0" height="40" rx="6" fill="#e6f0ff" stroke="#3b6fb6"/>
+<text x="570.9" y="121.0" text-anchor="middle" fill="#222">&lt;оператор&gt;</text>
+<text x="570.9" y="137.0" text-anchor="middle" font-size="11" fill="#3b6fb6">NS4</text>
+</g>
+<g class="node" data-id="4" data-order="2" data-rule="" data-start="8" data-end="13" data-line="2" data-column="3">
+<title>while
+(2:3-2:8)</title>
+<rect x="96.0" y="188.0" width="66.0" height="40" rx="20.0" fill="#fff4cc" stroke="#b8860b"/>
+<text x="129.0" y="213.0" text-anchor="middle" font-style="italic" fill="#222">while</text>
+<text class="order" x="97.0" y="186.0" text-anchor="end" font-size="11" font-weight="bold" fill="#d62828">2</text>
+</g>
+<g class="node" data-id="5" data-rule="NB4" data-start="14" data-end="21" data-line="2" data-column="9">
+<title>¬ M = N
+(2:9-2:16)</title>
+<rect x="218.6" y="188.0" width="82.8" height="40" rx="6" fill="#e6f0ff" stroke="#3b6fb6"/>
+<text x="260.0" y="205.0" text-anchor="middle" fill="#222">&lt;умова&gt;</text>
+<text x="260.0" y="221.0" text-anchor="middle" font-size="11" fill="#3b6fb6">NB4</text>
+</g>
+<g class="node" data-id="6" data-order="3" data-rule="" data-start="14" data-end="15" data-line="2" data-column="9">
+<title>¬
+(2:9-2:10)</title>
+<rect x="172.0" y="272.0" width="32.4" height="40" rx="20.0" fill="#fff4cc" stroke="#b8860b"/>
+<text x="188.2" y="297.0" text-anchor="middle" font-style="italic" fill="#222">¬</text>
+<text class="order" x="173.0" y="270.0" text-anchor="end" font-size="11" font-weight="bold" fill="#d62828">3</text>
+</g>
+<g class="node" data-id="7" data-rule="NB1" data-start="16" data-end="21" data-line="2" data-column="11">
+<title>M = N
+(2:11-2:16)</title>
+<rect x="290.4" y="272.0" width="82.8" height="40" rx="6" fill="#e6f0ff" stroke="#3b6fb6"/>
+<text x="331.8" y="289.0" text-anchor="middle" fill="#222">&lt;умова&gt;</text>
+<text x="331.8" y="305.0" text-anchor="middle" font-size="11" fill="#3b6fb6">NB1</text>
+</g>
+<g class="node" data-id="8" data-rule="NA2" data-start="16" data-end="17" data-line="2" data-column="11">
+<title>M
+(2:11-2:12)</title>
+<rect x="218.6" y="356.0" width="82.8" height="40" rx="6" fill="#e6f0ff" stroke="#3b6fb6"/>
+<text x="260.0" y="373.0" text-anchor="middle" fill="#222">&lt;вираз&gt;</text>
+<text x="260.0" y="389.0" text-anchor="middle" font-size="11" fill="#3b6fb6">NA2</text>
+</g>
+<g class="node" data-id="9" data-rule="NV" data-start="16" data-end="17" data-line="2" data-column="11">
+<title>M
+(2:11-2:12)</title>
+<rect x="214.4" y="440.0" width="91.2" height="40" rx="6" fill="#e6f0ff" stroke="#3b6fb6"/>
+<text x="260.0" y="457.0" text-anchor="middle" fill="#222">&lt;змінна&gt;</text>
+<text x="260.0" y="473.0" text-anchor="middle" font-size="11" fill="#3b6fb6">NV</text>
+</g>
+<g class="node" data-id="10" data-order="4" data-rule="" data-start="16" data-end="17" data-line="2" data-column="11">
+<title>M
+(2:11-2:12)</title>
+<rect x="243.8" y="524.0" width="32.4" height="40" rx="20.0" fill="#fff4cc" stroke="#b8860b"/>
+<text x="260.0" y="549.0" text-anchor="middle" font-style="italic" fill="#222">M</text>
+<text class="order" x="244.8" y="522.0" text-anchor="end" font-size="11" font-weight="bold" fill="#d62828">4</text>
+</g>
+<g class="node" data-id="11" data-order="5" data-rule="" data-start="18" data-end="19" data-line="2" data-column="13">
+<title>=
+(2:13-2:14)</title>
+<rect x="315.6" y="356.0" width="32.4" height="40" rx="20.0" fill="#fff4cc" stroke="#b8860b"/>
+<text x="331.8" y="381.0" text-anchor="middle" font-style="italic" fill="#222">=</text>
+<text class="order" x="316.6" y="354.0" text-anchor="end" font-size="11" font-weight="bold" fill="#d62828">5</text>
+</g>
+<g class="node" data-id="12" data-rule="NA2" data-start="20" data-end="21" data-line="2" data-column="15">
+<title>N
+(2:15-2:16)</title>
+<rect x="362.2" y="356.0" width="82.8" height="40" rx="6" fill="#e6f0ff" stroke="#3b6fb6"/>
+<text x="403.6" y="373.0" text-anchor="middle" fill="#222">&lt;вираз&gt;</text>
+<text x="403.6" y="389.0" text-anchor="middle" font-size="11" fill="#3b6fb6">NA2</text>
+</g>
+<g class="node" data-id="13" data-rule="NV" data-start="20" data-end="21" data-line="2" data-column="15">
+<title>N
+(2:15-2:16)</title>
+<rect x="358.0" y="440.0" width="91.2" height="40" rx="6" fill="#e6f0ff" stroke="#3b6fb6"/>
+<text x="403.6" y="457.0" text-anchor="middle" fill="#222">&lt;змінна&gt;</text>
+<text x="403.6" y="473.0" text-anchor="middle" font-size="11" fill="#3b6fb6">NV</text>
+</g>
+<g class="node" data-id="14" data-order="6" data-rule="" data-start="20" data-end="21" data-line="2" data-column="15">
+<title>N
+(2:15-2:16)</title>
+<rect x="387.4" y="524.0" width="32.4" height="40" rx="20.0" fill="#fff4cc" stroke="#b8860b"/>
+<text x="403.6" y="549.0" text-anchor="middle" font-style="italic" fill="#222">N</text>
+<text class="order" x="388.4" y="522.0" text-anchor="end" font-size="11" font-weight="bold" fill="#d62828">6</text>
+</g>
+<g class="node" data-id="15" data-order="7" data-rule="" data-start="22" data-end="24" data-line="2" data-column="17">
+<title>do
+(2:17-2:19)</title>
+<rect x="459.2" y="188.0" width="40.8" height="40" rx="20.0" fill="#fff4cc" stroke="#b8860b"/>
+<text x="479.6" y="213.0" text-anchor="middle" font-style="italic" fill="#222">do</text>
+<text class="order" x="460.2" y="186.0" text-anchor="end" font-size="11" font-weight="bold" fill="#d62828">7</text>
+</g>
+<g class="node" data-id="16" data-rule="NS3" data-start="29" data-end="73" data-line="3" data-column="5">
+<title>if M &gt; N then M := M - N
+    else N := N - M
+(3:5-4:20)</title>
+<rect x="958.8" y="188.0" width="108.0" height="40" rx="6" fill="#e6f0ff" stroke="#3b6fb6"/>
+<text x="1012.8" y="205.0" text-anchor="middle" fill="#222">&lt;оператор&gt;</text>
+<text x="1012.8" y="221.0" text-anchor="middle" font-size="11" fill="#3b6fb6">NS3</text>
+</g>
+<g class="node" data-id="17" data-order="8" data-rule="" data-start="29" data-end="31" data-line="3" data-column="5">
+<title>if
+(3:5-3:7)</title>
+<rect x="510.0" y="272.0" width="40.8" height="40" rx="20.0" fill="#fff4cc" stroke="#b8860b"/>
+<text x="530.4" y="297.0" text-anchor="middle" font-style="italic" fill="#222">if</text>
+<text class="order" x="511.0" y="270.0" text-anchor="end" font-size="11" font-weight="bold" fill="#d62828">8</text>
+</g>
+<g class="node" data-id="18" data-rule="NB2" data-start="32" data-end="37" data-line="3" data-column="8">
+<title>M &gt; N
+(3:8-3:13)</title>
+<rect x="636.8" y="272.0" width="82.8" height="40" rx="6" fill="#e6f0ff" stroke="#3b6fb6"/>
+<text x="678.2" y="289.0" text-anchor="middle" fill="#222">&lt;умова&gt;</text>
+<text x="678.2" y="305.0" text-anchor="middle" font-size="11" fill="#3b6fb6">NB2</text>
+</g>
+<g class="node" data-id="19" data-rule="NA2" data-start="32" data-end="33" data-line="3" data-column="8">
+<title>M
+(3:8-3:9)</title>
+<rect x="565.0" y="356.0" width="82.8" height="40" rx="6" fill="#e6f0ff" stroke="#3b6fb6"/>
+<text x="606.4" y="373.0" text-anchor="middle" fill="#222">&lt;вираз&gt;</text>
+<text x="606.4" y="389.0" text-anchor="middle" font-size="11" fill="#3b6fb6">NA2</text>
+</g>
+<g class="node" data-id="20" data-rule="NV" data-start="32" data-end="33" data-line="3" data-column="8">
+<title>M
+(3:8-3:9)</title>
+<rect x="560.8" y="440.0" width="91.2" height="40" rx="6" fill="#e6f0ff" stroke="#3b6fb6"/>
+<text x="606.4" y="457.0" text-anchor="middle" fill="#222">&lt;змінна&gt;</text>
+<text x="606.4" y="473.0" text-anchor="middle" font-size="11" fill="#3b6fb6">NV</text>
+</g>
+<g class="node" data-id="21" data-order="9" data-rule="" data-start="32" data-end="33" data-line="3" data-column="8">
+<title>M
+(3:8-3:9)</title>
+<rect x="590.2" y="524.0" width="32.4" height="40" rx="20.0" fill="#fff4cc" stroke="#b8860b"/>
+<text x="606.4" y="549.0" text-anchor="middle" font-style="italic" fill="#222">M</text>
+<text class="order" x="591.2" y="522.0" text-anchor="end" font-size="11" font-weight="bold" fill="#d62828">9</text>
+</g>
+<g class="node" data-id="22" data-order="10" data-rule="" data-start="34" data-end="35" data-line="3" data-column="10">
+<title>&gt;
+(3:10-3:11)</title>
+<rect x="662.0" y="356.0" width="32.4" height="40" rx="20.0" fill="#fff4cc" stroke="#b8860b"/>
+<text x="678.2" y="381.0" text-anchor="middle" font-style="italic" fill="#222">&gt;</text>
+<text class="order" x="663.0" y="354.0" text-anchor="end" font-size="11" font-weight="bold" fill="#d62828">10</text>
+</g>
+<g class="node" data-id="23" data-rule="NA2" data-start="36" data-end="37" data-line="3" data-column="12">
+<title>N
+(3:12-3:13)</title>
+<rect x="708.6" y="356.0" width="82.8" height="40" rx="6" fill="#e6f0ff" stroke="#3b6fb6"/>
+<text x="750.0" y="373.0" text-anchor="middle" fill="#222">&lt;вираз&gt;</text>
+<text x="750.0" y="389.0" text-anchor="middle" font-size="11" fill="#3b6fb6">NA2</text>
+</g>
+<g class="node" data-id="24" data-rule="NV" data-start="36" data-end="37" data-line="3" data-column="12">
+<title>N
+(3:12-3:13)</title>
+<rect x="704.4" y="440.0" width="91.2" height="40" rx="6" fill="#e6f0ff" stroke="#3b6fb6"/>
+<text x="750.0" y="457.0" text-anchor="middle" fill="#222">&lt;змінна&gt;</text>
+<text x="750.0" y="473.0" text-anchor="middle" font-size="11" fill="#3b6fb6">NV</text>
+</g>
+<g class="node" data-id="25" data-order="11" data-rule="" data-start="36" data-end="37" data-line="3" data-column="12">
+<title>N
+(3:12-3:13)</title>
+<rect x="733.8" y="524.0" width="32.4" height="40" rx="20.0" fill="#fff4cc" stroke="#b8860b"/>
+<text x="750.0" y="549.0" text-anchor="middle" font-style="italic" fill="#222">N</text>
+<text class="order" x="734.8" y="522.0" text-anchor="end" font-size="11" font-weight="bold" fill="#d62828">11</text>
+</g>
+<g class="node" data-id="26" data-order="12" data-rule="" data-start="38" data-end="42" data-line="3" data-column="14">
+<title>then
+(3:14-3:18)</title>
+<rect x="805.6" y="272.0" width="57.6" height="40" rx="20.0" fill="#fff4cc" stroke="#b8860b"/>
+<text x="834.4" y="297.0" text-anchor="middle" font-style="italic" fill="#222">then</text>
+<text class="order" x="806.6" y="270.0" text-anchor="end" font-size="11" font-weight="bold" fill="#d62828">12</text>
+</g>
+<g class="node" data-id="27" data-rule="NS1" data-start="43" data-end="53" data-line="3" data-column="19">
+<title>M := M - N
+(3:19-3:29)</title>
+<rect x="976.7" y="272.0" width="108.0" height="40" rx="6" fill="#e6f0ff" stroke="#3b6fb6"/>
+<text x="1030.7" y="289.0" text-anchor="middle" fill="#222">&lt;оператор&gt;</text>
+<text x="1030.7" y="305.0" text-anchor="middle" font-size="11" fill="#3b6fb6">NS1</text>
+</g>
+<g class="node" data-id="28" data-rule="NV" data-start="43" data-end="44" data-line="3" data-column="19">
+<title>M
+(3:19-3:20)</title>
+<rect x="873.2" y="356.0" width="91.2" height="40" rx="6" fill="#e6f0ff" stroke="#3b6fb6"/>
+<text x="918.8" y="373.0" text-anchor="middle" fill="#222">&lt;змінна&gt;</text>
+<text x="918.8" y="389.0" text-anchor="middle" font-size="11" fill="#3b6fb6">NV</text>
+</g>
+<g class="node" data-id="29" data-order="13" data-rule="" data-start="43" data-end="44" data-line="3" data-column="19">
+<title>M
+(3:19-3:20)</title>
+<rect x="902.6" y="440.0" width="32.4" height="40" rx="20.0" fill="#fff4cc" stroke="#b8860b"/>
+<text x="918.8" y="465.0" text-anchor="middle" font-style="italic" fill="#222">M</text>
+<text class="order" x="903.6" y="438.0" text-anchor="end" font-size="11" font-weight="bold" fill="#d62828">13</text>
+</g>
+<g class="node" data-id="30" data-order="14" data-rule="" data-start="45" data-end="47" data-line="3" data-column="21">
+<title>:=
+(3:21-3:23)</title>
+<rect x="974.4" y="356.0" width="40.8" height="40" rx="20.0" fill="#fff4cc" stroke="#b8860b"/>
+<text x="994.8" y="381.0" text-anchor="middle" font-style="italic" fill="#222">:=</text>
+<text class="order" x="975.4" y="354.0" text-anchor="end" font-size="11" font-weight="bold" fill="#d62828">14</text>
+</g>
+<g class="node" data-id="31" data-rule="NA4" data-start="48" data-end="53" data-line="3" data-column="24">
+<title>M - N
+(3:24-3:29)</title>
+<rect x="1101.2" y="356.0" width="82.8" height="40" rx="6" fill="#e6f0ff" stroke="#3b6fb6"/>
+<text x="1142.6" y="373.0" text-anchor="middle" fill="#222">&lt;вираз&gt;</text>
+<text x="1142.6" y="389.0" text-anchor="middle" font-size="11" fill="#3b6fb6">NA4</text>
+</g>
+<g class="node" data-id="32" data-rule="NA2" data-start="48" data-end="49" data-line="3" data-column="24">
+<title>M
+(3:24-3:25)</title>
+<rect x="1029.4" y="440.0" width="82.8" height="40" rx="6" fill="#e6f0ff" stroke="#3b6fb6"/>
+<text x="1070.8" y="457.0" text-anchor="middle" fill="#222">&lt;вираз&gt;</text>
+<text x="1070.8" y="473.0" text-anchor="middle" font-size="11" fill="#3b6fb6">NA2</text>
+</g>
+<g class="node" data-id="33" data-rule="NV" data-start="48" data-end="49" data-line="3" data-column="24">
+<title>M
+(3:24-3:25)</title>
+<rect x="1025.2" y="524.0" width="91.2" height="40" rx="6" fill="#e6f0ff" stroke="#3b6fb6"/>
+<text x="1070.8" y="541.0" text-anchor="middle" fill="#222">&lt;змінна&gt;</text>
+<text x="1070.8" y="557.0" text-anchor="middle" font-size="11" fill="#3b6fb6">NV</text>
+</g>
+<g class="node" data-id="34" data-order="15" data-rule="" data-start="48" data-end="49" data-line="3" data-column="24">
+<title>M
+(3:24-3:25)</title>
+<rect x="1054.6" y="608.0" width="32.4" height="40" rx="20.0" fill="#fff4cc" stroke="#b8860b"/>
+<text x="1070.8" y="633.0" text-anchor="middle" font-style="italic" fill="#222">M</text>
+<text class="order" x="1055.6" y="606.0" text-anchor="end" font-size="11" font-weight="bold" fill="#d62828">15</text>
+</g>
+<g class="node" data-id="35" data-order="16" data-rule="" data-start="50" data-end="51" data-line="3" data-column="26">
+<title>-
+(3:26-3:27)</title>
+<rect x="1126.4" y="440.0" width="32.4" height="40" rx="20.0" fill="#fff4cc" stroke="#b8860b"/>
+<text x="1142.6" y="465.0" text-anchor="middle" font-style="italic" fill="#222">-</text>
+<text class="order" x="1127.4" y="438.0" text-anchor="end" font-size="11" font-weight="bold" fill="#d62828">16</text>
+</g>
+<g class="node" data-id="36" data-rule="NA2" data-start="52" data-end="53" data-line="3" data-column="28">
+<title>N
+(3:28-3:29)</title>
+<rect x="1173.0" y="440.0" width="82.8" height="40" rx="6" fill="#e6f0ff" stroke="#3b6fb6"/>
+<text x="1214.4" y="457.0" text-anchor="middle" fill="#222">&lt;вираз&gt;</text>
+<text x="1214.4" y="473.0" text-anchor="middle" font-size="11" fill="#3b6fb6">NA2</text>
+</g>
+<g class="node" data-id="37" data-rule="NV" data-start="52" data-end="53" data-line="3" data-column="28">
+<title>N
+(3:28-3:29)</title>
+<rect x="1168.8" y="524.0" width="91.2" height="40" rx="6" fill="#e6f0ff" stroke="#3b6fb6"/>
+<text x="1214.4" y="541.0" text-anchor="middle" fill="#222">&lt;змінна&gt;</text>
+<text x="1214.4" y="557.0" text-anchor="middle" font-size="11" fill="#3b6fb6">NV</text>
+</g>
+<g class="node" data-id="38" data-order="17" data-rule="" data-start="52" data-end="53" data-line="3" data-column="28">
+<title>N
+(3:28-3:29)</title>
+<rect x="1198.2" y="608.0" width="32.4" height="40" rx="20.0" fill="#fff4cc" stroke="#b8860b"/>
+<text x="1214.4" y="633.0" text-anchor="middle" font-style="italic" fill="#222">N</text>
+<text class="order" x="1199.2" y="606.0" text-anchor="end" font-size="11" font-weight="bold" fill="#d62828">17</text>
+</g>
+<g class="node" data-id="39" data-order="18" data-rule="" data-start="58" data-end="62" data-line="4" data-column="5">
+<title>else
+(4:5-4:9)</title>
+<rect x="1270.0" y="272.0" width="57.6" height="40" rx="20.0" fill="#fff4cc" stroke="#b8860b"/>
+<text x="1298.8" y="297.0" text-anchor="middle" font-style="italic" fill="#222">else</text>
+<text class="order" x="1271.0" y="270.0" text-anchor="end" font-size="11" font-weight="bold" fill="#d62828">18</text>
+</g>
+<g class="node" data-id="40" data-rule="NS1" data-start="63" data-end="73" data-line="4" data-column="10">
+<title>N := N - M
+(4:10-4:20)</title>
+<rect x="1441.1" y="272.0" width="108.0" height="40" rx="6" fill="#e6f0ff" stroke="#3b6fb6"/>
+<text x="1495.1" y="289.0" text-anchor="middle" fill="#222">&lt;оператор&gt;</text>
+<text x="1495.1" y="305.0" text-anchor="middle" font-size="11" fill="#3b6fb6">NS1</text>
+</g>
+<g class="node" data-id="41" data-rule="NV" data-start="63" data-end="64" data-line="4" data-column="10">
+<title>N
+(4:10-4:11)</title>
+<rect x="1337.6" y="356.0" width="91.2" height="40" rx="6" fill="#e6f0ff" stroke="#3b6fb6"/>
+<text x="1383.2" y="373.0" text-anchor="middle" fill="#222">&lt;змінна&gt;</text>
+<text x="1383.2" y="389.0" text-anchor="middle" font-size="11" fill="#3b6fb6">NV</text>
+</g>
+<g class="node" data-id="42" data-order="19" data-rule="" data-start="63" data-end="64" data-line="4" data-column="10">
+<title>N
+(4:10-4:11)</title>
+<rect x="1367.0" y="440.0" width="32.4" height="40" rx="20.0" fill="#fff4cc" stroke="#b8860b"/>
+<text x="1383.2" y="465.0" text-anchor="middle" font-style="italic" fill="#222">N</text>
+<text class="order" x="1368.0" y="438.0" text-anchor="end" font-size="11" font-weight="bold" fill="#d62828">19</text>
+</g>
+<g class="node" data-id="43" data-order="20" data-rule="" data-start="65" data-end="67" data-line="4" data-column="12">
+<title>:=
+(4:12-4:14)</title>
+<rect x="1438.8" y="356.0" width="40.8" height="40" rx="20.0" fill="#fff4cc" stroke="#b8860b"/>
+<text x="1459.2" y="381.0" text-anchor="middle" font-style="italic" fill="#222">:=</text>
+<text class="order" x="1439.8" y="354.0" text-anchor="end" font-size="11" font-weight="bold" fill="#d62828">20</text>
+</g>
+<g class="node" data-id="44" data-rule="NA4" data-start="68" data-end="73" data-line="4" data-column="15">
+<title>N - M
+(4:15-4:20)</title>
+<rect x="1565.6" y="356.0" width="82.8" height="40" rx="6" fill="#e6f0ff" stroke="#3b6fb6"/>
+<text x="1607.0" y="373.0" text-anchor="middle" fill="#222">&lt;вираз&gt;</text>
+<text x="1607.0" y="389.0" text-anchor="middle" font-size="11" fill="#3b6fb6">NA4</text>
+</g>
+<g class="node" data-id="45" data-rule="NA2" data-start="68" data-end="69" data-line="4" data-column="15">
+<title>N
+(4:15-4:16)</title>
+<rect x="1493.8" y="440.0" width="82.8" height="40" rx="6" fill="#e6f0ff" stroke="#3b6fb6"/>
+<text x="1535.2" y="457.0" text-anchor="middle" fill="#222">&lt;вираз&gt;</text>
+<text x="1535.2" y="473.0" text-anchor="middle" font-size="11" fill="#3b6fb6">NA2</text>
+</g>
+<g class="node" data-id="46" data-rule="NV" data-start="68" data-end="69" data-line="4" data-column="15">
+<title>N
+(4:15-4:16)</title>
+<rect x="1489.6" y="524.0" width="91.2" height="40" rx="6" fill="#e6f0ff" stroke="#3b6fb6"/>
+<text x="1535.2" y="541.0" text-anchor="middle" fill="#222">&lt;змінна&gt;</text>
+<text x="1535.2" y="557.0" text-anchor="middle" font-size="11" fill="#3b6fb6">NV</text>
+</g>
+<g class="node" data-id="47" data-order="21" data-rule="" data-start="68" data-end="69" data-line="4" data-column="15">
+<title>N
+(4:15-4:16)</title>
+<rect x="1519.0" y="608.0" width="32.4" height="40" rx="20.0" fill="#fff4cc" stroke="#b8860b"/>
+<text x="1535.2" y="633.0" text-anchor="middle" font-style="italic" fill="#222">N</text>
+<text class="order" x="1520.0" y="606.0" text-anchor="end" font-size="11" font-weight="bold" fill="#d62828">21</text>
+</g>
+<g class="node" data-id="48" data-order="22" data-rule="" data-start="70" data-end="71" data-line="4" data-column="17">
+<title>-
+(4:17-4:18)</title>
+<rect x="1590.8" y="440.0" width="32.4" height="40" rx="20.0" fill="#fff4cc" stroke="#b8860b"/>
+<text x="1607.0" y="465.0" text-anchor="middle" font-style="italic" fill="#222">-</text>
+<text class="order" x="1591.8" y="438.0" text-anchor="end" font-size="11" font-weight="bold" fill="#d62828">22</text>
+</g>
+<g class="node" data-id="49" data-rule="NA2" data-start="72" data-end="73" data-line="4" data-column="19">
+<title>M
+(4:19-4:20)</title>
+<rect x="1637.4" y="440.0" width="82.8" height="40" rx="6" fill="#e6f0ff" stroke="#3b6fb6"/>
+<text x="1678.8" y="457.0" text-anchor="middle" fill="#222">&lt;вираз&gt;</text>
+<text x="1678.8" y="473.0" text-anchor="middle" font-size="11" fill="#3b6fb6">NA2</text>
+</g>
+<g class="node" data-id="50" data-rule="NV" data-start="72" data-end="73" data-line="4" data-column="19">
+<title>M
+(4:19-4:20)</title>
+<rect x="1633.2" y="524.0" width="91.2" height="40" rx="6" fill="#e6f0ff" stroke="#3b6fb6"/>
+<text x="1678.8" y="541.0" text-anchor="middle" fill="#222">&lt;змінна&gt;</text>
+<text x="1678.8" y="557.0" text-anchor="middle" font-size="11" fill="#3b6fb6">NV</text>
+</g>
+<g class="node" data-id="51" data-order="23" data-rule="" data-start="72" data-end="73" data-line="4" data-column="19">
+<title>M
+(4:19-4:20)</title>
+<rect x="1662.6" y="608.0" width="32.4" height="40" rx="20.0" fill="#fff4cc" stroke="#b8860b"/>
+<text x="1678.8" y="633.0" text-anchor="middle" font-style="italic" fill="#222">M</text>
+<text class="order" x="1663.6" y="606.0" text-anchor="end" font-size="11" font-weight="bold" fill="#d62828">23</text>
+</g>
+<g class="node" data-id="52" data-order="24" data-rule="" data-start="74" data-end="77" data-line="5" data-column="1">
+<title>end
+(5:1-5:4)</title>
+<rect x="1734.4" y="104.0" width="49.2" height="40" rx="20.0" fill="#fff4cc" stroke="#b8860b"/>
+<text x="1759.0" y="129.0" text-anchor="middle" font-style="italic" fill="#222">end</text>
+<text class="order" x="1735.4" y="102.0" text-anchor="end" font-size="11" font-weight="bold" fill="#d62828">24</text>
+</g>
+</svg>

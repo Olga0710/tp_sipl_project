@@ -32,22 +32,22 @@ class _UsageError(Exception):
 
 
 class _ArgParser(argparse.ArgumentParser):
-    def error(self, message: str):                           
+    def error(self, message: str):                           # argparse за замовчуванням виходить з кодом 2
         self.print_usage(sys.stderr)
         self.exit(EXIT_USAGE, f"{self.prog}: помилка: {message}\n")
 
 
-#  побудова парсера аргументів
+# ---------------------------------------------------------------- побудова парсера аргументів
 def build_parser() -> argparse.ArgumentParser:
     parser = _ArgParser(prog="sipl", description="SIPL Language Toolkit")
     parser.add_argument("--version", action="version", version=f"sipl {__version__}")
     sub = parser.add_subparsers(dest="command", required=True, metavar="КОМАНДА")
 
-    common = argparse.ArgumentParser(add_help=False)
+    common = _ArgParser(add_help=False)
     common.add_argument("file", help="файл з програмою SIPL ('-' — читати зі stdin)")
     common.add_argument("--json", action="store_true", help="вивід у форматі JSON (для інтеграцій)")
 
-    run_opts = argparse.ArgumentParser(add_help=False)
+    run_opts = _ArgParser(add_help=False)
     run_opts.add_argument("--set", dest="assignments", action="append", default=[], metavar="ІМ'Я=ЧИСЛО",
                           help="початкове значення змінної (можна повторювати)")
     run_opts.add_argument("--max-steps", type=int, default=DEFAULT_MAX_STEPS, metavar="N",
@@ -70,7 +70,7 @@ def build_parser() -> argparse.ArgumentParser:
     return parser
 
 
-# допоміжні
+# ---------------------------------------------------------------- допоміжні
 def _force_utf8() -> None:
     for stream in (sys.stdin, sys.stdout, sys.stderr):
         if hasattr(stream, "reconfigure"):
@@ -146,7 +146,7 @@ def _state_lines(state: dict[str, int]) -> str:
     return "".join(f"{name} = {value}\n" for name, value in sorted(state.items()))
 
 
-#  команди
+# ---------------------------------------------------------------- команди
 def _cmd_parse(args, source: str) -> int:
     program = parse(source)
     if args.json:
@@ -226,7 +226,7 @@ def _cmd_tree(args, source: str) -> int:
     elif args.format == "svg":
         print(view.to_svg(), end="")
     else:
-        print(view.to_text(), end="")
+        print(view.to_text(leaves=True), end="")
     return EXIT_OK
 
 
@@ -266,7 +266,7 @@ def _fail(args, kind: str, message: str, code: int, diagnostic: Optional[Diagnos
     return code
 
 
-# - точка входу
+# ---------------------------------------------------------------- точка входу
 def main(argv: Optional[list[str]] = None) -> int:
     _force_utf8()
     args = build_parser().parse_args(argv)

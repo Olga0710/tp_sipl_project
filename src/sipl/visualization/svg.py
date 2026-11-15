@@ -10,7 +10,7 @@ from typing import Optional
 from xml.sax.saxutils import escape, quoteattr
 
 from ..parse_tree import ParseNode
-from .parse_tree_view import span_str
+from .parse_tree_view import leaf_numbers, span_str
 
 CHAR_W = 8.4
 PAD_X = 12
@@ -60,6 +60,7 @@ def layout(root: ParseNode) -> dict[int, tuple[float, int]]:
 
 def to_svg(root: ParseNode, source: Optional[str] = None) -> str:
     pos = layout(root)
+    numbers = leaf_numbers(root)
     max_depth = max(d for _, d in pos.values())
     width = _measure(root) + 2 * MARGIN
     height = (max_depth + 1) * NODE_H + max_depth * V_GAP + 2 * MARGIN
@@ -103,8 +104,9 @@ def to_svg(root: ParseNode, source: Optional[str] = None) -> str:
         tip = span_str(node.span)
         if source is not None:
             tip = f"{node.span.text(source)}\n({tip})"
+        order = f' data-order="{numbers[id(node)]}"' if node.terminal else ""
         attrs = (
-            f'class="node" data-id="{node_id}" data-rule={quoteattr(node.rule or "")} '
+            f'class="node" data-id="{node_id}"{order} data-rule={quoteattr(node.rule or "")} '
             f'data-start="{s.offset}" data-end="{e.offset}" data-line="{s.line}" data-column="{s.column}"'
         )
         parts.append(f"<g {attrs}>")
@@ -117,6 +119,10 @@ def to_svg(root: ParseNode, source: Optional[str] = None) -> str:
             parts.append(
                 f'<text x="{cx:.1f}" y="{top + NODE_H / 2 + 5:.1f}" text-anchor="middle" '
                 f'font-style="italic" fill="#222">{escape(node.symbol)}</text>'
+            )
+            parts.append(                                   # номер листка в порядку обходу (як на рис. 1)
+                f'<text class="order" x="{cx - w / 2 + 1:.1f}" y="{top - 2:.1f}" text-anchor="end" '
+                f'font-size="11" font-weight="bold" fill="#d62828">{numbers[id(node)]}</text>'
             )
         else:
             parts.append(

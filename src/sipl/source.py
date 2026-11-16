@@ -1,4 +1,4 @@
-
+"""Позиції в тексті та діагностика — спільні для всіх шарів інструментів."""
 from __future__ import annotations
 
 from dataclasses import dataclass

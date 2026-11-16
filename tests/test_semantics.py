@@ -16,7 +16,7 @@ from sipl.semantics.terms import (
 
 BAR = "\u0304"
 
-# Програма x^y (ПР 1-2, с. 9-16)
+# Програма x^y з практикуму (ПР 1-2, с. 9-16)
 POWER = """begin
   R := 1;
   while Y > 0 do
@@ -32,7 +32,7 @@ def term(src, style="course"):
     return format_term(semantic_term(src).term, style)
 
 
-# 
+# ---------------- golden: приклад із практикуму ----------------
 def test_power_term_matches_the_textbook():
     expected = (f"AS^R(1{BAR}) · WH(S²(gr, Y⇒, 0{BAR}), "
                 f"AS^R(S²(mult, R⇒, X⇒)) · AS^Y(S²(sub, Y⇒, 1{BAR})))")

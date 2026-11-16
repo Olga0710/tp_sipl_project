@@ -1,0 +1,8 @@
+begin
+  Q := 0;
+  while X > Y - 1 do
+  begin
+    X := X - Y;
+    Q := Q + 1
+  end
+end

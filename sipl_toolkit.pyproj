@@ -22,6 +22,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Folder Include="demo\" />
     <Folder Include="docs\" />
     <Folder Include="docs\vis01\" />
     <Folder Include="examples\" />
@@ -35,16 +36,21 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="CHANGELOG.md" />
+    <Content Include="demo\broken.sipl" />
+    <Content Include="demo\divide.sipl" />
+    <Content Include="demo\factorial.sipl" />
+    <Content Include="demo\forever.sipl" />
+    <Content Include="demo\parity.sipl" />
     <Content Include="docs\cli.md" />
-    <Content Include="docs\vis01\euclid.dot" />
-    <Content Include="docs\vis01\euclid.json" />
-    <Content Include="docs\vis01\euclid.svg" />
-    <Content Include="docs\vis01\euclid.txt" />
-    <Content Include="docs\vis01\euclid_graphviz.png" />
+    <Content Include="docs\vis01\power.dot" />
+    <Content Include="docs\vis01\power.json" />
+    <Content Include="docs\vis01\power.svg" />
+    <Content Include="docs\vis01\power.txt" />
+    <Content Include="docs\vis01\power_graphviz.png" />
     <Content Include="examples\euclid.sipl" />
     <Content Include="examples\nested.sipl" />
     <Content Include="examples\power.sipl" />
-    <Content Include="grammar\sipl.lark" />
+    <Content Include="grammar\sipl.ebnf" />
     <Content Include="pyproject.toml" />
     <Content Include="README.md" />
   </ItemGroup>
@@ -64,7 +70,6 @@
     <Compile Include="src\sipl\source.py" />
     <Compile Include="old\trace.py" />
     <Compile Include="old\visualization.py" />
-    <Compile Include="old\export_parse_tree.py" />
     <Compile Include="old\test_check.py" />
     <Compile Include="old\test_grammar.py" />
     <Compile Include="old\test_interpreter.py" />
@@ -77,12 +82,14 @@
     <Compile Include="src\visualization\__main__.py" />
     <Compile Include="tests\test_ast_format.py" />
     <Compile Include="tests\test_cli.py" />
+    <Compile Include="tests\test_grammar_spec.py" />
     <Compile Include="tests\test_interpreter.py" />
     <Compile Include="tests\test_lexer.py" />
     <Compile Include="tests\test_parser.py" />
     <Compile Include="old\test_trace.py" />
     <Compile Include="old\test_cli.py" />
     <Compile Include="old\test_visualization.py" />
+    <Compile Include="tests\test_random_programs.py" />
     <Compile Include="tests\test_release_notes.py" />
     <Compile Include="tests\test_semantics.py" />
     <Compile Include="tests\test_source.py" />

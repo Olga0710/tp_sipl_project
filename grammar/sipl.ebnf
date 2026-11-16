@@ -1,0 +1,33 @@
+(* SIPL v1.0 -- формальна граматика (EBNF).
+   Відповідає БНФ практикуму; у дужках -- імена правил курсу. *)
+
+program     = "begin" , statement , "end" ;                              (* NP1 *)
+
+statement   = simple , { ";" , simple } ;                                (* NS2 *)
+simple      = assign | if | while | block | skip ;
+assign      = variable , ":=" , expr ;                                   (* NS1 *)
+if          = "if" , cond , "then" , simple , "else" , simple ;          (* NS3 *)
+while       = "while" , cond , "do" , simple ;                           (* NS4 *)
+block       = "begin" , statement , "end" ;                              (* NS5 *)
+skip        = "skip" ;                                                   (* NS6 *)
+
+expr        = term , { ( "+" | "-" ) , term } ;                           (* NA3, NA4 *)
+term        = factor , { "*" , factor } ;                                (* NA5 *)
+factor      = number | variable | "(" , expr , ")" ;                     (* NA1, NA2, NA6 *)
+
+cond        = not_cond , { OR , not_cond } ;                             (* NB3 *)
+not_cond    = NOT , not_cond | cond_atom ;                               (* NB4 *)
+cond_atom   = expr , REL , expr | "(" , cond , ")" ;                     (* NB1, NB2, NB5 *)
+
+(* лексика: ident, number, letter, digit — лексичні правила (символи пишуться без пропусків);
+   решта правил — на рівні токенів *)
+variable    = ident ;                                                    (* NV *)
+ident       = letter , { letter | digit | "_" } ;   (* не може бути ключовим словом *)
+number      = [ "-" ] , digit , { digit } ;                              (* NN *)
+REL         = "=" | ">" ;
+OR          = "∨" | "or" ;
+NOT         = "¬" | "not" ;
+keyword     = "begin" | "end" | "if" | "then" | "else" | "while" | "do" | "skip" | "or" | "not" ;
+letter      = "a" | "b" | "c" | "d" | "e" | "f" | "g" | "h" | "i" | "j" | "k" | "l" | "m" | "n" | "o" | "p" | "q" | "r" | "s" | "t" | "u" | "v" | "w" | "x" | "y" | "z" | "A" | "B" | "C" | "D" | "E" | "F" | "G" | "H" | "I" | "J" | "K" | "L" | "M" | "N" | "O" | "P" | "Q" | "R" | "S" | "T" | "U" | "V" | "W" | "X" | "Y" | "Z" ;
+digit       = "0" | "1" | "2" | "3" | "4" | "5" | "6" | "7" | "8" | "9" ;
+

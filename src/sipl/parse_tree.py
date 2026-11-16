@@ -1,6 +1,6 @@
 """Конкретне дерево розбору (дерево синтаксичного виводу) SIPL.
 
-Кожен внутрішній вузол відповідає одному правилу БНФ  (NP1, NS1..NS6,
+Кожен внутрішній вузол відповідає одному правилу БНФ курсу (NP1, NS1..NS6,
 NA1..NA6, NB1..NB5, NV, NN); листки — термінали (символи програми).
 """
 from __future__ import annotations
@@ -14,8 +14,8 @@ from .source import SourceSpan
 
 @dataclass(frozen=True)
 class ParseNode:
-    symbol: str                      
-    rule: str | None                
+    symbol: str                      # '<оператор>' для нетерміналу; текст токена для листка
+    rule: str | None                 # 'NS3', ... ; None для терміналів
     children: tuple["ParseNode", ...]
     span: SourceSpan
     terminal: bool = False

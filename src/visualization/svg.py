@@ -16,7 +16,6 @@ FONT = 14
 
 
 def _build_leaf_indices(root: ParseNode) -> dict[int, int]:
-    """Створює нумерацію 1, 2, 3... виключно для термінальних вузлів (листків) зліва направо."""
     indices: dict[int, int] = {}
     counter = 0
 

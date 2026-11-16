@@ -2,10 +2,6 @@
 
 [![CI](https://github.com/Olga0710/tp_sipl_project/actions/workflows/ci.yml/badge.svg)](https://github.com/Olga0710/tp_sipl_project/actions/workflows/ci.yml)
 
-Інструменти для навчальної мови програмування **SIPL** (SImple Programming Language) з курсу
-«Теорія програмування»: парсер, інтерпретатор із trace, візуалізація дерева виводу, семантичні терми
-та CLI. Спільне ядро — бібліотека `sipl`; CLI та інші клієнти використовують його API.
-
 ## Заявлені завдання курсового проєкту
 
 | ID | Завдання | Бали | Де реалізовано |
@@ -20,17 +16,17 @@
 | REL-01 | CI | 0.5 | `.github/workflows/ci.yml` |
 | REL-02 | GitHub Releases + SemVer + CHANGELOG | 0.5 | `CHANGELOG.md`, `.github/workflows/release.yml`, тег `v0.5.0` |
 
-Сума заявлених завдань: 10.5.
+Сума заявлених завдань: 10.5 (підсумкова оцінка обмежується 10.0).
 
 ## Встановлення
 
 Потрібен Python 3.10 або новіший.
 
 ```
-git clone https://github.com/Olga0710/tp_sipl_project.git
+git clone https://github.com/<USER>/<REPO>.git
 cd <REPO>
 python -m venv env
-env\Scripts\activate            
+env\Scripts\activate            # Linux/macOS: source env/bin/activate
 pip install -e ".[dev]"
 ```
 
@@ -69,6 +65,7 @@ AS^R(1̄) · WH(S²(gr, Y⇒, 0̄), AS^R(S²(mult, R⇒, X⇒)) · AS^Y(S²(sub,
 ```
 
 Приклади: `examples/euclid.sipl`, `examples/power.sipl`, `examples/nested.sipl`.
+Демонстраційні програми, яких немає в тестах, і сценарій показу з реальними виводами — у [demo/DEMO.md](demo/DEMO.md).
 
 ## Архітектура
 
@@ -101,6 +98,12 @@ text ──lexer──▶ tokens ──parser──▶ parse tree (ParseNode, п
 
 ## Тестування
 
+Види тестів: модульні (лексер, парсер, AST, інтерпретатор, trace, CLI, візуалізація, семантика);
+інтеграційні (CLI у справжньому процесі, коди завершення, JSON-схема); **специфікація → код**
+(тест читає `grammar/sipl.ebnf`, генерує з нього речення й перевіряє, що парсер їх приймає, а будь-який
+власний префікс відхиляє); **диференційні** (на випадкових завершуваних програмах інтерпретатор
+і семантичний терм дають однаковий стан).
+
 ```
 pytest --cov=sipl --cov-report=term-missing
 ruff check .
@@ -113,6 +116,4 @@ mypy
 - Читання змінної без значення — помилка виконання; значення задаються через `--set`.
 - `∨` обчислює обидва операнди; ділення, `<` та `∧` не входять до SIPL.
 - Інструмент не доводить коректність програм і не обчислює семантичні терми поза тестами (це окремі завдання каталогу).
-
-demo update
 

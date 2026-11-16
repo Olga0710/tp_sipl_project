@@ -114,7 +114,7 @@ def input_variables(root: ast.Node) -> list[str]:
             need(node.cond, defined)
             stmt(node.body, defined)
             return defined
-        return defined                                         
+        return defined                                         # Skip
 
     stmt(root, frozenset())
     return sorted(inputs)

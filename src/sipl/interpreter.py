@@ -23,8 +23,8 @@ class SiplRuntimeError(Exception):
     def __init__(self, diagnostic: Diagnostic):
         super().__init__(str(diagnostic))
         self.diagnostic = diagnostic
-        self.state: dict[str, int] = {}      
-        self.trace: Optional[Trace] = None  
+        self.state: dict[str, int] = {}      # стан у момент помилки
+        self.trace: Optional[Trace] = None   # trace до моменту помилки
 
 
 class StepLimitExceeded(SiplRuntimeError):
@@ -96,7 +96,7 @@ class Interpreter:
 
     # ---------- оператори ----------
     def _exec(self, node: ast.Stmt) -> None:
-        while isinstance(node, ast.Seq):             
+        while isinstance(node, ast.Seq):              # послідовність — циклом, без глибокої рекурсії
             self._exec(node.first)
             node = node.second
 
@@ -165,7 +165,7 @@ class Interpreter:
             right = self._eval(node.right)
             return left == right if node.op == "=" else left > right
         if isinstance(node, ast.Or):
-            left = self._cond(node.left)          
+            left = self._cond(node.left)          # обидва операнди мають бути визначені
             right = self._cond(node.right)
             return left or right
         if isinstance(node, ast.Not):

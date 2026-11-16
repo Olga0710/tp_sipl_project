@@ -10,7 +10,7 @@ def build_ast(tree: ParseNode) -> ast.Program:
     return ast.Program(body=_stmt(tree.children[1]), span=tree.span)
 
 
-def _name(var_node: ParseNode) -> str:            
+def _name(var_node: ParseNode) -> str:            # NV
     return var_node.children[0].symbol
 
 
@@ -40,7 +40,7 @@ def _expr(n: ParseNode) -> ast.Expr:
     if r in ("NA3", "NA4", "NA5"):
         return ast.BinOp(c[1].symbol, _expr(c[0]), _expr(c[2]), n.span)
     if r == "NA6":
-        return _expr(c[1])                        
+        return _expr(c[1])                        # дужки в AST не зберігаються
     raise ValueError(f"Невідоме правило виразу: {r}")
 
 

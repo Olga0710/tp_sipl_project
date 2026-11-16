@@ -65,7 +65,6 @@ AS^R(1̄) · WH(S²(gr, Y⇒, 0̄), AS^R(S²(mult, R⇒, X⇒)) · AS^Y(S²(sub,
 ```
 
 Приклади: `examples/euclid.sipl`, `examples/power.sipl`, `examples/nested.sipl`.
-Демонстраційні програми, яких немає в тестах, і сценарій показу з реальними виводами — у [demo/DEMO.md](demo/DEMO.md).
 
 ## Архітектура
 

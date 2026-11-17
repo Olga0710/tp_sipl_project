@@ -1,7 +1,7 @@
 """Парсер SIPL (метод рекурсивного спуску): текст -> дерево розбору -> AST.
 
 Кожна функція parse_* реалізує одне правило граматики (див. grammar/sipl.ebnf)
-і будує вузол дерева розбору з іменем правила БНФ курсу.
+і будує вузол дерева розбору з іменем правила БНФ.
 """
 from __future__ import annotations
 
@@ -14,7 +14,6 @@ from .source import Diagnostic, SiplSyntaxError
 PROGRAM, STMT, EXPR, COND, VAR, NUM = "<програма>", "<оператор>", "<вираз>", "<умова>", "<змінна>", "<число>"
 
 REL_RULES = {K.EQ: "NB1", K.GT: "NB2"}
-# Токени, після яких закрита дужка означає, що дужки були у ВИРАЗІ (NA6), а не в умові (NB5)
 _EXPR_CONTINUATION = {K.PLUS, K.MINUS, K.STAR, K.EQ, K.GT}
 
 
@@ -148,11 +147,6 @@ class _Parser:
         return self._parse_cond_atom()
 
     def _paren_is_condition(self) -> bool:
-        """Поточний токен '('. Чи це дужки навколо УМОВИ (NB5), а не виразу (NA6)?
-
-        Знаходимо парну ')' і дивимось, що йде після неї: арифметична операція чи
-        порівняння означають, що дужки були частиною виразу.
-        """
         depth = 0
         j = self._i
         while self._toks[j].kind is not K.EOF:

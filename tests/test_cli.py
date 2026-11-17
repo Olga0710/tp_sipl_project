@@ -278,7 +278,7 @@ def test_process_error_exit_codes(tmp_path):
 def test_package_version_matches_pyproject():
     try:
         import tomllib
-    except ModuleNotFoundError:                            # Python 3.10
+    except ModuleNotFoundError:                            
         return
     data = tomllib.loads((ROOT / "pyproject.toml").read_text(encoding="utf-8"))
     assert data["project"]["version"] == __version__

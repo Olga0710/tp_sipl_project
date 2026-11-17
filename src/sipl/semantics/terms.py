@@ -1,14 +1,4 @@
-"""Семантичні терми програмної алгебри A_SIPL (нотація практикуму, ПР 2).
-
-Терм — функціональний вираз, що задає семантику програми:
-  Const n̄          — функція-константа
-  Deref x⇒        — розіменування (AF_DNM): x⇒(st) = st(x)
-  Superposition   — суперпозиція S^n(f, g1..gn) (AF_S)
-  AssignFn AS^x   — присвоювання (AF_AS)
-  Compose f · g   — послідовне виконання (AF_SEQ)
-  IfFn IF(b,s1,s2), WhileFn WH(b,s) — умовний оператор (AF_IF) і цикл (AF_WH)
-  Identity id     — тотожна функція (AF_ID)
-"""
+"""Семантичні терми програмної алгебри A_SIPL"""
 from __future__ import annotations
 
 from dataclasses import dataclass
@@ -75,14 +65,12 @@ _OVERLINE = "\u0304"
 
 
 def _flatten(term: Term) -> list[Term]:
-    """a · (b · c) і (a · b) · c записуємо однаково: композиція асоціативна (AF_SEQ)."""
     if isinstance(term, Compose):
         return _flatten(term.first) + _flatten(term.second)
     return [term]
 
 
 def format_term(term: Term, style: str = "course") -> str:
-    """Запис терму: 'course' — нотація курсу (Unicode), 'ascii', 'latex'."""
     if style not in STYLES:
         raise ValueError(f"Невідомий стиль '{style}'; доступні: {', '.join(STYLES)}")
     return _fmt(term, style)

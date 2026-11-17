@@ -162,7 +162,7 @@ def test_term_to_dict_is_json_serializable():
 
 # ---------------- звірка семантики терму з інтерпретатором ----------------
 def apply_term(t, st):
-    """Застосування терму до стану за формулами AF_* практикуму (еталон для тестів)."""
+   
     if isinstance(t, Const):
         return t.value
     if isinstance(t, Deref):

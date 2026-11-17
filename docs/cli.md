@@ -93,5 +93,5 @@ sipl trace examples/power.sipl --set X=2 --set Y=3
 sipl run examples/euclid.sipl --set M=12 --set N=18 --json
 sipl tree examples/euclid.sipl --format svg > euclid.svg
 sipl tree examples/euclid.sipl --out out/euclid
-sipl sem examples/power.sipl --steps                        # терм і його побудова за правилами курсу
+sipl sem examples/power.sipl --steps                        # терм і його побудова 
 ```

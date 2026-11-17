@@ -23,7 +23,7 @@ def nodes_of(src):
     return [n for _, n, _, _ in walk(parse_tree(src))]
 
 
-# ---------- приймальний тест: приклад із посібника ----------
+# ----------  приклад із посібника ----------
 def test_euclid_tree_has_the_shape_of_the_course_figure():
     counts = Counter(n.symbol for n in nodes_of(EUCLID) if not n.terminal)
     assert counts == {"<програма>": 1, "<оператор>": 4, "<умова>": 3, "<вираз>": 10, "<змінна>": 10}
@@ -205,7 +205,7 @@ def test_example_files_can_be_visualized():
         ParseTreeView(f.read_text(encoding="utf-8")).to_svg()
 
 
-# ---------- нумерація листків (порядок обходу, рис. 1 практикуму) ----------
+# ---------- нумерація листків ----------
 POWER = """begin
   R := 1;
   while Y > 0 do
@@ -227,7 +227,7 @@ def test_text_marks_leaves_with_their_order_number():
     lines = view(POWER).to_text().splitlines()
     assert any(line.lstrip(" │├└─").startswith("[1] begin") for line in lines)
     assert any(line.lstrip(" │├└─").startswith("[24] end") for line in lines)
-    assert lines[0].startswith("<програма> [NP1]")                  # нетермінали без номера
+    assert lines[0].startswith("<програма> [NP1]")                  
 
 
 def test_text_with_leaves_appends_the_traversal_line():
@@ -285,7 +285,7 @@ def test_svg_order_numbers_do_not_overlap_any_node():
         cx, _ = pos[id(node)]
         w = svg_mod._node_width(node)
         right = cx - w / 2 + 1
-        left = right - 7 * len(str(numbers[id(node)]))          # ~7 пікселів на цифру
+        left = right - 7 * len(str(numbers[id(node)]))         
         label_box = (left, top_of(depth) - 13, right, top_of(depth) - 2)
         for (x1, y1, x2, y2) in boxes:
             assert label_box[2] <= x1 or label_box[0] >= x2 or label_box[3] <= y1 or label_box[1] >= y2
